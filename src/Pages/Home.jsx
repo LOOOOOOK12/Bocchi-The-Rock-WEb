@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div style={{height: `100vh`, 
+    <div id="Home" style={{height: `100vh`, 
                 display: `flex`,
                 alignItems:"center",
                 justifyContent:"center"}}> 
