@@ -8,7 +8,7 @@ import Songs from "./Pages/Songs"
 function App() {
   return (
     <>
-      <Nav/>
+    <Nav/>
       <Home/>
       <Synopsis/>
       <Characters/>
