@@ -1,20 +1,21 @@
 import React from 'react'
 import Logo from '../Images/Kessoku_Band_Logo.png'
+import NavStyles from '../Styles/NavStyles'
 
 
 function NavBAr() {
   return (
-    <div>
+    <NavStyles>
       <div className='LOGO'>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt='LOGO'></img>
       </div>
-        <ul className='Links'>
+        <ul className='links'>
           <a href="#Home"><li>Home</li></a>
           <a href="#Synopsis"><li>Synopsis</li></a>
           <a href="#Characters"><li>Characters</li></a>
           <a href="#Songs"><li>Songs</li></a>
         </ul> 
-    </div>
+    </NavStyles>
   )
 }
 
