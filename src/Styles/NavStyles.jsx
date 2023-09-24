@@ -3,12 +3,16 @@ import styled from 'styled-components'
 
 const NavStyles = styled.div
 `
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    height: 50px;
-    z-index: 15;
+        height: 50px;
+        top: 0;
+        z-index: 15;
+        width: 90%;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 5%;
     
     img{
         height: 3rem;
@@ -27,7 +31,7 @@ const NavStyles = styled.div
         display: inline-block;
         padding-left: 30px;
     }
-    
+
 `
 
 export default NavStyles

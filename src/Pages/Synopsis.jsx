@@ -2,7 +2,7 @@ import React from 'react'
 
 function Synopsis() {
   return (
-    <div style={{height: `100vh`, 
+    <div id="Synopsis"style={{height: `100vh`, 
                 display: `flex`,
                 alignItems:"center",
                 justifyContent:"center"}}>
