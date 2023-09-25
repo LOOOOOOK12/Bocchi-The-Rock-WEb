@@ -1,13 +1,11 @@
 import React from 'react'
+import HomeStyles from '../Styles/HomeStyles'
 
 function Home() {
   return (
-    <div id="Home" style={{height: `100vh`, 
-                display: `flex`,
-                alignItems:"center",
-                justifyContent:"center"}}> 
+    <HomeStyles> 
         <h1>Home</h1>
-    </div>
+    </HomeStyles>
   )
 }
 
