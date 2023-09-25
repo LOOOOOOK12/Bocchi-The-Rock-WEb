@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const NavStyles = styled.div
-`
+const NavStyles = styled.div`
         height: 50px;
         top: 0;
         z-index: 15;
