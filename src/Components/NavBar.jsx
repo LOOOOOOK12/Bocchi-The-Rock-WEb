@@ -2,12 +2,11 @@ import React from 'react'
 import Logo from '../Images/Kessoku_Band_Logo.png'
 import NavStyles from '../Styles/NavStyles'
 
-
 function NavBAr() {
   return (
     <NavStyles>
       <div className='LOGO'>
-          <img src={Logo} alt='LOGO'></img>
+          <a href="#Home"><img src={Logo} alt='LOGO'></img></a>
       </div>
         <ul className='links'>
           <a href="#Home"><li>Home</li></a>
