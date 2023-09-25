@@ -1,13 +1,11 @@
 import React from 'react'
+import SynopsisStyles from '../Styles/SynopsisStyles'
 
 function Synopsis() {
   return (
-    <div id="Synopsis"style={{height: `100vh`, 
-                display: `flex`,
-                alignItems:"center",
-                justifyContent:"center"}}>
+    <SynopsisStyles id="Synopsis">
         <h1>Synopsis</h1>
-    </div>
+    </SynopsisStyles>
   )
 }
 
