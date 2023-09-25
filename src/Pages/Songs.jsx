@@ -1,8 +1,11 @@
 import React from 'react'
+import SongStyles from '../Styles/SongsStyles'
 
 function Songs() {
   return (
-    <div id='Songs'>Songs</div>
+    <SongStyles id='Songs'>
+      <h1>Songs</h1>
+    </SongStyles>
   )
 }
 
