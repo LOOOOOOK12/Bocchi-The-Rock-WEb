@@ -1,8 +1,11 @@
 import React from 'react'
+import CharactersStyles from '../Styles/CharactersStyles'
 
 function Characters() {
   return (
-    <div id='Characters'>Characters</div>
+    <CharactersStyles id='Characters'>
+      <h1>Characters</h1>
+    </CharactersStyles>
   )
 }
 
