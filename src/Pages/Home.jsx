@@ -3,7 +3,7 @@ import HomeStyles from '../Styles/HomeStyles'
 
 function Home() {
   return (
-    <HomeStyles> 
+    <HomeStyles id= "Home"> 
         <h1>Home</h1>
     </HomeStyles>
   )
