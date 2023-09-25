@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const NavStyles = styled.div`
-        height: 50px;
+        height: 28px;
         top: 0;
         z-index: 15;
         width: 90%;
@@ -12,6 +12,7 @@ const NavStyles = styled.div`
         align-items: center;
         text-align: center;
         padding: 1.5rem 5%;
+        /* background: #1b1b1b; */
     
     img{
         height: 3rem;

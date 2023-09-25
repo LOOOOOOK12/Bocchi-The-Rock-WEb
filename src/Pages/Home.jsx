@@ -1,10 +1,11 @@
 import React from 'react'
 import HomeStyles from '../Styles/HomeStyles'
+import homeLogo from '../assets/Kessoku_Band_Logo.png'
 
 function Home() {
   return (
     <HomeStyles id= "Home"> 
-        <h1>Home</h1>
+        <img src={homeLogo} alt="LOGO" />
     </HomeStyles>
   )
 }
