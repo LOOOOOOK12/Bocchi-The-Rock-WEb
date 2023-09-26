@@ -8,7 +8,7 @@ function NavBAr() {
   
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 500) {
+      if (window.scrollY >= 550) {
         setNavActive(true);
       } else {
         setNavActive(false);
