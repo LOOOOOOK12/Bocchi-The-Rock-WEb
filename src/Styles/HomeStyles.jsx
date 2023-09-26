@@ -15,6 +15,18 @@ const HomeStyles = styled.div`
         transform: rotate(-13deg);
     }
 
+    @media (max-width: 700px) {
+        img{
+            height: 20rem;
+        }
+    }
+
+    @media (max-width: 500px) {
+        img{
+            height: 16rem;
+        }
+    }
+
 `
 
 export default HomeStyles
