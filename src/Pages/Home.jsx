@@ -1,4 +1,3 @@
-
 import HomeStyles from '../Styles/HomeStyles'
 import homeLogo from '../assets/Kessoku_Band_Logo.png'
 
