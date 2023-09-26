@@ -6,6 +6,17 @@ const SynopsisStyles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem 4rem;
+
+    .posters-Carousel{
+        position: relative;
+    }
+
+    .Poster-1{
+        margin: 3rem;
+        height: 30rem;
+        width: 25rem;
+    }
 `
 
 export default SynopsisStyles
