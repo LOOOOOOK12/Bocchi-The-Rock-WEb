@@ -1,8 +1,8 @@
-import React from 'react'
 import Logo from '../Images/Kessoku_Band_Logo.png'
 import NavStyles from '../Styles/NavStyles'
 
 function NavBAr() {
+
   return (
     <NavStyles>
       <div className='LOGO'>
