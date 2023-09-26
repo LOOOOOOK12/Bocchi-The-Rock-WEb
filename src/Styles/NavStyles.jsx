@@ -12,7 +12,6 @@ const NavStyles = styled.div`
         align-items: center;
         text-align: center;
         padding: 1.5rem 5%;
-        /* background: #1b1b1b; */
     
     img{
         height: 3rem;
