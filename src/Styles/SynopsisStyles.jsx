@@ -7,20 +7,14 @@ const SynopsisStyles = styled.div`
     align-items: center;
     justify-content: center;
     padding: 2rem 4rem;
-/* 
-    .posters-Carousel{
-        position: relative;
-    }
-
-    .Poster-1{
-        margin: 3rem;
-        height: 30rem;
-        width: 25rem;
-    } */
 
     img{
-        height: 30rem;
+        height: 25rem;
         width: 100%;
+    }
+
+    .Swiper{
+        width: 20rem;
     }
 `
 
