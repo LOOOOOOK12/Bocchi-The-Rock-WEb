@@ -11,7 +11,7 @@
             justify-content: space-between;
             align-items: center;
             text-align: center;
-            padding: 1.5rem 5%;
+            padding: 1rem 5%;
             transition: 0.5s;
         
         &.active {
