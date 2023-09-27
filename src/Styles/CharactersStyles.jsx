@@ -6,7 +6,7 @@ const CharactersStyles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #464646 ;
+    background: yellow ;
 `
 
 
