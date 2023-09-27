@@ -7,7 +7,7 @@ const SynopsisStyles = styled.div`
     align-items: center;
     justify-content: center;
     padding: 2rem 4rem;
-
+/* 
     .posters-Carousel{
         position: relative;
     }
@@ -16,6 +16,11 @@ const SynopsisStyles = styled.div`
         margin: 3rem;
         height: 30rem;
         width: 25rem;
+    } */
+
+    img{
+        height: 30rem;
+        width: 100%;
     }
 `
 
