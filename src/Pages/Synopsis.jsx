@@ -11,7 +11,8 @@ function Synopsis() {
       <div className="Text-1">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis dignissimos aliquid quisquam soluta ratione possimus perspiciatis sapiente </p>
       </div>
-          <Swiper
+      <div className="Swiper">
+        <Swiper 
             spaceBetween={0}
             slidesPerView={1}
             onSlideChange={() => console.log('slide change')}
@@ -22,6 +23,7 @@ function Synopsis() {
             <SwiperSlide><img src={pic} alt="" /></SwiperSlide>
             <SwiperSlide><img src={pic} alt="" /></SwiperSlide>
           </Swiper>
+        </div>
         <div className='Text-2'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis dignissimos aliquid quisquam soluta ratione possimus perspiciatis sapiente 
         </div>
