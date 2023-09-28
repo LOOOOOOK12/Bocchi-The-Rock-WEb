@@ -11,7 +11,7 @@ const BocchiStyles = styled.div`
 
 
     img{
-        
+            
     }
 `
 
