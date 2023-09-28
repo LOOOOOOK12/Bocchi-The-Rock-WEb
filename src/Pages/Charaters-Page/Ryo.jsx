@@ -6,8 +6,8 @@ function Ryo() {
     <RyoStyles>
         <img src="" alt="" />
         <div>
-        <h1>Hitori Gotoh</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Ryo Yamada</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </RyoStyles>
   )
