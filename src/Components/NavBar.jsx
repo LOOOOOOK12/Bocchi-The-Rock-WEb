@@ -1,4 +1,5 @@
 import Logo from '../Images/Kessoku_Band_Logo.png'
+import Logo2 from '../assets/bocchi-the-rock-logo-00522AF4F8-seeklogo.com.png'
 import NavStyles from '../Styles/NavStyles'
 import { useState, useEffect } from 'react'
 
