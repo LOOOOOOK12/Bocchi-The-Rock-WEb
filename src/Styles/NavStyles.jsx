@@ -11,14 +11,14 @@
             justify-content: space-between;
             align-items: center;
             text-align: center;
-            padding: 1.4rem 5%;
+            padding: 1rem 5%;
             transition: 0.5s;
         
         &.active {
             background: #2f2f2f;
         }
         img{
-            height: 3rem;
+            height: 2rem;
         }
 
         li,a {
