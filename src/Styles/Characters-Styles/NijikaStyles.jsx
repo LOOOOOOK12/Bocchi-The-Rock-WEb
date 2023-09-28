@@ -8,5 +8,11 @@ const NijikaStyles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    img{
+        height: 100%;
+
+    }
+
 `
 export default NijikaStyles
