@@ -11,7 +11,7 @@ const HomeStyles = styled.div`
     justify-content: center;
 
     img{
-        height: 28rem;
+        height: 13rem;
         transform: rotate(-13deg);
     }
 
