@@ -13,8 +13,6 @@ function Characters() {
     <CharactersStyles id='Characters'>
       <Swiper
         slidesPerView={1}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide className='Bocchi'><Bocchi/></SwiperSlide>
         <SwiperSlide className='Kita'><Kita/></SwiperSlide>
