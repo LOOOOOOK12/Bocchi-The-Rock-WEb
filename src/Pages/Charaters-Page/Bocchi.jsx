@@ -5,11 +5,14 @@ import BocchiStyles from '../../Styles/Characters-Styles/BocchiStyles'
 function Bocchi() {
   return (
     <BocchiStyles>
-        <img src={BocchiPicture} alt="" />
-        <div>
+        <div className="Shape">
+          <img src={BocchiPicture} alt="" /> 
+        </div>
+        <div className='Text'>
             <h1>Hitori Gotoh</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
+        
     </BocchiStyles>
   )
 }
