@@ -7,10 +7,12 @@ const RyoStyles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    text-align: center;
 
     .Profile{
+        position: relative;
         height: 100%;
+        border-radius: 70% 30% 70% 30% / 30% 48% 52% 70%   ;
         background: blue;
     }
     
