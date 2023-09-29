@@ -18,7 +18,7 @@ const SynopsisStyles = styled.div`
         padding: 2rem 4rem;
         height: 100%;
         width: 90%;
-        background: black;
+        background: #1f1f1f;
     }
 
     img{
