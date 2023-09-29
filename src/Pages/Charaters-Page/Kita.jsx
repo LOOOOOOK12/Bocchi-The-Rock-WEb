@@ -5,8 +5,10 @@ import KitaStyles from '../../Styles/Characters-Styles/KitaStyles'
 function Kita() {
   return (
     <KitaStyles>
-        <img src={KitaPicture} alt="" />
-        <div>
+        <div className='Profile'>
+          <img src={KitaPicture} alt="" />
+        </div>
+        <div className='Text'>
         <h1>Kita Ikuyo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
