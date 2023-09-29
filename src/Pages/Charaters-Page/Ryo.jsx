@@ -8,7 +8,7 @@ function Ryo() {
         <div className='Profile'>
           <img src={RyoPicture} alt="" />
         </div>
-        <div>
+        <div className='Text'>
             <h1>Ryo Yamada</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
