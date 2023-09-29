@@ -6,7 +6,20 @@ const SynopsisStyles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 2rem 4rem;
+    background: red;
+    position: relative;
+
+    .synopsis-Content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 4rem;
+        height: 100%;
+        width: 90%;
+        background: black;
+    }
 
     img{
         height: 25rem;
