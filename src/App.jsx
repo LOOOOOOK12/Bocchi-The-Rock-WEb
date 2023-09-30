@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import Synopsis from "./Pages/Synopsis"
 import Characters from './Pages/Characters'
 import Songs from "./Pages/Songs"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Synopsis/>
       <Characters/>
       <Songs/>
+      <Footer/>
     </>
   )
 }
