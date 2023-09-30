@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const RyoStyles = styled.div`
     height: 100vh;
-    background: #323232;
+    background: #141414;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@ const RyoStyles = styled.div`
         position: relative;
         height: 100%;
         border-radius: 70% 30% 70% 30% / 30% 48% 52% 70%   ;
-        background: blue;
+        background: #4f4fff;
     }
     
     img{
