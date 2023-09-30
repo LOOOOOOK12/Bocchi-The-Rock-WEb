@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const BocchiStyles = styled.div`
     height: 100vh;
-    background: #323232;
+    background: #141414;
     position: relative;
     display: flex;
     justify-content: center;
@@ -15,11 +15,12 @@ const BocchiStyles = styled.div`
         position: relative;
         height: 100%;
         border-radius: 46% 54% 46% 54% / 68% 48% 52% 32%   ;
-        background: pink;
+        background: #ffa1b1;
     }
 
     .Text{
         position: relative;
+        margin: 3rem;
     }
 
     img{ 
