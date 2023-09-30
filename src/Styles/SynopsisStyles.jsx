@@ -8,7 +8,9 @@ const SynopsisStyles = styled.div`
     justify-content: center;
     text-align: center;
     padding: 2rem 4rem;
-    background: red;
+    background-image: url("src/assets/Site-community-image.png");
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
 
     .synopsis-Content{
@@ -22,7 +24,7 @@ const SynopsisStyles = styled.div`
     }
 
     img{
-        height: 25rem;
+        height: 30rem;
         width: 100%;
     }
 
