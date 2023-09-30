@@ -26,7 +26,7 @@ function NavBAr() {
   return (
     <NavStyles className={isNavActive ? 'active' : ''}>
       <div className='LOGO'>
-          <a href="#Home"><img src={Logo2} alt='LOGO'></img></a>
+          <a href="#Home"><img src={Logo} alt='LOGO'></img></a>
       </div>
         <ul className='links'>
           <a href="#Home"><li>Home</li></a>
