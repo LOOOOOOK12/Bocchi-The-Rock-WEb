@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const KitaStyles = styled.div`
     height: 100vh;
-    background: #323232;
+    background: #141414;
     position: relative;
     display: flex;
     justify-content: center;
@@ -13,8 +13,8 @@ const KitaStyles = styled.div`
     .Profile{
         position: relative;
         height: 100%;
-        border-radius: 46% 54% 46% 54% / 68% 48% 52% 32%   ;
-        background: red;
+        border-radius: 53% 47% 59% 41% / 59% 22% 78% 41%;
+        background: #ff3737;
     }
 
     img{
