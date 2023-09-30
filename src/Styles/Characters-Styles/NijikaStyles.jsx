@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const NijikaStyles = styled.div`
     height: 100vh;
-    background: #323232;
+    background: #141414;
     position: relative;
     display: flex;
     justify-content: center;
@@ -13,8 +13,8 @@ const NijikaStyles = styled.div`
     .Profile{
         position: relative;
         height: 100%;
-        border-radius: 52% 48% 46% 54% / 68% 48% 52% 32%    ;
-        background: yellow;
+        border-radius: 53% 47% 35% 65% / 50% 28% 72% 50% ;
+        background: #ffff70;
     }
 
     img{
