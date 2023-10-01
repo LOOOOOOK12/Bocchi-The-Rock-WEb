@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const HomeStyles = styled.div`
     height: 100vh; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url("src/assets/wallpaperflare.com_wallpaper (1).jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),url("src/assets/wallpaperflare.com_wallpaper (1).jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -11,18 +11,18 @@ const HomeStyles = styled.div`
     justify-content: center;
 
     img{
-        height: 15rem;
+        height: 10rem;
     }
 
     @media (max-width: 700px) {
         img{
-            height: 20rem;
+            height: 8rem;
         }
     }
 
     @media (max-width: 500px) {
         img{
-            height: 18rem;
+            height: 5rem;
         }
     }
 
