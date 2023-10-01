@@ -29,7 +29,11 @@ const SynopsisStyles = styled.div`
     }
 
     .Swiper{
-        width: 20rem;
+        width: 25rem;
+    }
+
+    @media (max-width: 700px) {
+
     }
 `
 
