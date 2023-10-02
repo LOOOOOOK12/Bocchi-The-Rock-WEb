@@ -6,7 +6,7 @@ function Nijika() {
   return (
     <NijikaStyles>
         <div className='Profile'>
-          <img src={NijikaPicture} alt="" />
+          <img src={NijikaPicture} alt="Nijika Ichiji" />
         </div>
         <div className='Text'> 
             <h1>Nijika Ichiji</h1>
