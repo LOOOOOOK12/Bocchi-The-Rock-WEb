@@ -6,7 +6,7 @@ function Bocchi() {
   return (
     <BocchiStyles>
         <div className="Shape">
-          <img src={BocchiPicture} alt="" /> 
+          <img src={BocchiPicture} alt="Hitori Bocchi" /> 
         </div>
         <div className='Text'>
             <h1>Hitori Gotoh</h1>
