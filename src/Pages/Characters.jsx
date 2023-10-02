@@ -12,6 +12,7 @@ function Characters() {
   return (
     <CharactersStyles id='Characters'>
       <Swiper
+        className='Swiper'
         slidesPerView={1}
       >
         <SwiperSlide className='Bocchi'><Bocchi/></SwiperSlide>
