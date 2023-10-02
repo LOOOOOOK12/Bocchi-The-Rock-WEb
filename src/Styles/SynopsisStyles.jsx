@@ -8,20 +8,11 @@ const SynopsisStyles = styled.div`
     justify-content: center;
     text-align: center;
     padding: 2rem 4rem;
-    background-image: url("src/assets/Site-community-image.png");
+    background: #222222;
+    /* background-image: url("src/assets/Site-community-image.png");
     background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-
-    .synopsis-Content{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem 4rem;
-        height: 100%;
-        width: 90%;
-        background: #1f1f1f;
-    }
+    background-attachment: fixed; */
+    
 
     img{
         height: 30rem;
@@ -29,11 +20,18 @@ const SynopsisStyles = styled.div`
     }
 
     .Swiper{
-        width: 25rem;
+        width: 20rem;
+    }
+
+    .Text-1{
+        line-height: 1.3rem;
     }
 
     @media (max-width: 700px) {
-
+        #Synopsis{
+            display: flex;
+            flex-direction: column;
+        }
     }
 `
 
