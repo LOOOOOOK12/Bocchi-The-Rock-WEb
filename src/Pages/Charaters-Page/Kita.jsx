@@ -6,7 +6,7 @@ function Kita() {
   return (
     <KitaStyles>
         <div className='Profile'>
-          <img src={KitaPicture} alt="" />
+          <img src={KitaPicture} alt="Kita Ikuyo" />
         </div>
         <div className='Text'>
         <h1>Kita Ikuyo</h1>
