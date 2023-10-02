@@ -11,8 +11,7 @@ import Poster4 from "../assets/Posters/Bocchi_the_Rock 21_Theater_Compilation_Ke
 
 function Synopsis() {
   return (
-      <SynopsisStyles id="Synopsis">
-        <div className='synopsis-Content'>
+      <SynopsisStyles id="Synopsis" className='Synopsis'>
           <div className="Swiper">
             <Swiper 
                 spaceBetween={0}
@@ -20,10 +19,10 @@ function Synopsis() {
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
               >
-                <SwiperSlide><img src={Poster1} alt="BTR Key Visuals" /></SwiperSlide>
-                <SwiperSlide><img src={Poster2} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={Poster3} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={Poster4} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Poster1} alt="BTR Key Visuals-1" /></SwiperSlide>
+                <SwiperSlide><img src={Poster2} alt="BTR Key Visuals-2" /></SwiperSlide>
+                <SwiperSlide><img src={Poster3} alt="BTR Key Visuals-3" /></SwiperSlide>
+                <SwiperSlide><img src={Poster4} alt="BTR Key Visuals-4" /></SwiperSlide>
             </Swiper>
           </div>
           <div className="Text-1">
@@ -32,7 +31,6 @@ function Synopsis() {
               collected five volumes in tankōbon format as of November 2022, and has an official translation 
               by Yen Press, which will debut on October 17, 2023.</p>
           </div>
-        </div>
       </SynopsisStyles>
   )
 }
