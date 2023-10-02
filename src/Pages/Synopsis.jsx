@@ -11,9 +11,9 @@ import Poster4 from "../assets/Posters/Bocchi_the_Rock 21_Theater_Compilation_Ke
 
 function Synopsis() {
   return (
-      <SynopsisStyles id="Synopsis" className='Synopsis'>
-          <div className="Swiper">
-            <Swiper 
+      <SynopsisStyles id="Synopsis">
+          <Swiper 
+                className='Swiper'
                 spaceBetween={0}
                 slidesPerView={1}
                 onSlideChange={() => console.log('slide change')}
@@ -23,8 +23,7 @@ function Synopsis() {
                 <SwiperSlide><img src={Poster2} alt="BTR Key Visuals-2" /></SwiperSlide>
                 <SwiperSlide><img src={Poster3} alt="BTR Key Visuals-3" /></SwiperSlide>
                 <SwiperSlide><img src={Poster4} alt="BTR Key Visuals-4" /></SwiperSlide>
-            </Swiper>
-          </div>
+          </Swiper>       
           <div className="Text-1">
             <p>Bocchi the Rock! is a band comedy 4-koma manga series written and illustrated by Aki Hamazi. 
               The manga series serialized in Manga Time Kirara MAX by Houbunsha since February 2018 issue and 
