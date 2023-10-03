@@ -1,7 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import pic from "../assets/wallpaperflare.com_wallpaper.jpg"
 import SynopsisStyles from '../Styles/SynopsisStyles'
 import Poster1 from "../assets/Posters/Bocchi_the_Rock 21_Anime_Main_Key_Visual.png"
 import Poster2 from "../assets/Posters/Blu-ray_ 26_DVD_Volume_5.png"
@@ -28,7 +27,8 @@ function Synopsis() {
             <p>Bocchi the Rock! is a band comedy 4-koma manga series written and illustrated by Aki Hamazi. 
               The manga series serialized in Manga Time Kirara MAX by Houbunsha since February 2018 issue and 
               collected five volumes in tankōbon format as of November 2022, and has an official translation 
-              by Yen Press, which will debut on October 17, 2023.</p>
+              by Yen Press, which will debut on October 17, 2023.
+            </p>
           </div>
       </SynopsisStyles>
   )
