@@ -12,14 +12,22 @@ const NijikaStyles = styled.div`
 
     .Profile{
         position: relative;
-        height: 100%;
+        height: 90%;
         border-radius: 53% 47% 35% 65% / 50% 28% 72% 50% ;
         background: #ffff70;
     }
 
-    img{
-        height: 100%;
+    .Text{
+        
+        margin: 3rem;
+    }
 
+    img{ 
+        height: 100%;
+    }
+
+    @media (max-width: 700px) {
+        
     }
 
 `
