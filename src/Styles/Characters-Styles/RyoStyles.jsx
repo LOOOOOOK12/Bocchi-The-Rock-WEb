@@ -11,13 +11,22 @@ const RyoStyles = styled.div`
 
     .Profile{
         position: relative;
-        height: 100%;
+        height: 90%;
         border-radius: 70% 30% 70% 30% / 30% 48% 52% 70%   ;
         background: #4f4fff;
     }
     
-    img{
+    .Text{
+        
+        margin: 3rem;
+    }
+
+    img{ 
         height: 100%;
+    }
+
+    @media (max-width: 700px) {
+        
     }
 `
 
