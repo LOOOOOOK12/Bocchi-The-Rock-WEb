@@ -1,5 +1,5 @@
 import React from 'react'
-import KitaPicture from "../../assets/Ikuyo_Kita_Character_Design_2.png"
+import KitaPicture from "../../assets/Characters/Ikuyo_Kita_Character_Design_2.png"
 import KitaStyles from '../../Styles/Characters-Styles/KitaStyles'
 
 function Kita() {
@@ -9,8 +9,8 @@ function Kita() {
           <img src={KitaPicture} alt="Kita Ikuyo" />
         </div>
         <div className='Text'>
-        <h1>Kita Ikuyo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2>Kita Ikuyo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </KitaStyles>
   )
