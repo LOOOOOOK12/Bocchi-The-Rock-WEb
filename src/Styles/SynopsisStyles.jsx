@@ -9,10 +9,9 @@ const SynopsisStyles = styled.div`
     text-align: center;
     padding: 2rem 4rem;
     background: #222222;
-    gap: 3rem;
 
     .Swiper{
-        height: 85%;
+        height: 34rem;
         width: 25rem;
     }
 
@@ -23,12 +22,18 @@ const SynopsisStyles = styled.div`
 
     .Text-1{
         width: 50%;
-        line-height: 1.5rem;
+        line-height: 1.9rem;
+        font-size: 1.4rem;
     }
 
     @media (max-width: 700px) {
             display: flex;
             flex-direction: column;
+
+        .Swiper{
+            height:90%;
+        }
+
         }
 `
 
