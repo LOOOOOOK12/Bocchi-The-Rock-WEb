@@ -1,5 +1,5 @@
 import React from 'react'
-import NijikaPicture from "../../assets/Nijika_Ijichi_Character_Design_2.png"
+import NijikaPicture from "../../assets/Characters/Nijika_Ijichi_Character_Design_2.png"
 import NijikaStyles from '../../Styles/Characters-Styles/NijikaStyles'
 
 function Nijika() {
@@ -9,8 +9,8 @@ function Nijika() {
           <img src={NijikaPicture} alt="Nijika Ichiji" />
         </div>
         <div className='Text'> 
-            <h1>Nijika Ichiji</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2>Nijika Ichiji</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </NijikaStyles>
   )
