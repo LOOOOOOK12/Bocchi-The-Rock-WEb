@@ -12,18 +12,23 @@ const BocchiStyles = styled.div`
     text-align: center;
 
     .Shape{
-        height: 100%;
+        height: 90%;
         border-radius: 46% 54% 46% 54% / 68% 48% 52% 32%   ;
         background: #ffa1b1;
     }
 
     .Text{
-        
+        display: flex;
+        flex-direction: column;
         margin: 3rem;
     }
 
     img{ 
         height: 100%;
+    }
+
+    @media (max-width: 700px) {
+        
     }
 
     
