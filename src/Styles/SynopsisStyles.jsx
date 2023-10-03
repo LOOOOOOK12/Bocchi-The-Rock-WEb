@@ -2,16 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 
 const SynopsisStyles = styled.div`
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem 4rem;
+    padding: 5rem 3rem;
     background: #222222;
 
     .Swiper{
-        height: 34rem;
+        height: 35rem;
         width: 25rem;
     }
 
@@ -21,7 +20,9 @@ const SynopsisStyles = styled.div`
     }
 
     .Text-1{
-        width: 50%;
+        display: flex;
+
+        width: 40rem;
         line-height: 1.9rem;
         font-size: 1.4rem;
     }
@@ -31,7 +32,11 @@ const SynopsisStyles = styled.div`
             flex-direction: column;
 
         .Swiper{
-            height:90%;
+            height:100%;
+        }
+
+        .Text-1{
+            height: 100%;
         }
 
         }
