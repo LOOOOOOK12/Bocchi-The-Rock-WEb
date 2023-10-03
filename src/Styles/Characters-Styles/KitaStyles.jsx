@@ -12,14 +12,22 @@ const KitaStyles = styled.div`
 
     .Profile{
         position: relative;
-        height: 100%;
+        height: 90%;
         border-radius: 53% 47% 59% 41% / 59% 22% 78% 41%;
         background: #ff3737;
     }
 
-    img{
-        height: 100%;
+    .Text{
+        
+        margin: 3rem;
+    }
 
+    img{ 
+        height: 100%;
+    }
+
+    @media (max-width: 700px) {
+        
     }
 `
 export default KitaStyles
