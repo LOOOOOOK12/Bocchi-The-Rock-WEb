@@ -21,10 +21,10 @@ const SynopsisStyles = styled.div`
 
     .Text-1{
         display: flex;
-
-        width: 40rem;
+        width: 30rem;
+        margin: 0 3rem;
         line-height: 1.9rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     @media (max-width: 700px) {
@@ -44,7 +44,7 @@ const SynopsisStyles = styled.div`
 
         @media (max-width: 510px) {
             .Swiper{
-            width:15rem;
+            width: 20rem;
         }
 
         .Text-1{
@@ -52,6 +52,13 @@ const SynopsisStyles = styled.div`
             width: 100%;
             font-size: 1rem;
         }
+        }
+
+        @media (max-width: 425px) {
+            .Swiper{
+            width: 14rem;
+        }
+
         }
 `
 
