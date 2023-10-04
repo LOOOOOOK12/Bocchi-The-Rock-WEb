@@ -37,8 +37,21 @@ const SynopsisStyles = styled.div`
 
         .Text-1{
             height: 100%;
+            width: 100%;
         }
 
+        }
+
+        @media (max-width: 510px) {
+            .Swiper{
+            width:15rem;
+        }
+
+        .Text-1{
+            height: 100%;
+            width: 100%;
+            font-size: 1rem;
+        }
         }
 `
 
