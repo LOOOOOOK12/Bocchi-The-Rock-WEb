@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <HomeStyles id= "Home"> 
-        <img src={Title} alt="LOGO" />
+      <img src={Title} alt="LOGO" />
     </HomeStyles>
   )
 }
