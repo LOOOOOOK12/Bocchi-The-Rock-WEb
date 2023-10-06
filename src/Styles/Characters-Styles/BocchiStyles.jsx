@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const BocchiStyles = styled.div`
     height: 100vh;
-    width: 100%;
+    padding: 5rem 3rem;
     background: #141414;
     position: relative;
     display: flex;
@@ -20,7 +20,7 @@ const BocchiStyles = styled.div`
     .Text{
         display: flex;
         flex-direction: column;
-        margin: 3rem;
+        margin: 0 1.5rem;
     }
 
     img{ 
