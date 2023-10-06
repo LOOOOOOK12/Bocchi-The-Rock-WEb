@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const RyoStyles = styled.div`
     height: 100vh;
+    padding: 5rem 3rem;
     background: #141414;
     display: flex;
     justify-content: center;
@@ -16,9 +17,8 @@ const RyoStyles = styled.div`
         background: #4f4fff;
     }
     
-    .Text{
-        
-        margin: 3rem;
+    .Text{   
+        margin: 0 1.5rem;
     }
 
     img{ 
