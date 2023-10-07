@@ -15,6 +15,8 @@ function Synopsis() {
           className='Swiper'
           spaceBetween={0}
           slidesPerView={1}
+          autoplay
+          // data-swiper-autoplay="2000"
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
           >
