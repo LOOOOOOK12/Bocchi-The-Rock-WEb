@@ -28,19 +28,18 @@ function Songs() {
       slides-per-view="1"
       navigation="true"
       pagination="true"
-      speed="500" 
-      loop="true"
-      css-mode="true" 
+      autoplay = "true"
+      data-swiper-autoplay="2000"
       id='Container'
       >
-        <swiper-slide className = "slides">
-          <img src={Pic} alt="" className='Pic1' />
+        <swiper-slide className = "slides" >
+          <img src={Pic} alt="" className='Pic1'/>
         </swiper-slide>
         <swiper-slide className = "slides">
-          <img src={Pic} alt="" className='Pic1' />
+          <img src={Pic} alt="" className='Pic1'/>
         </swiper-slide>
         <swiper-slide className = "slides">
-          <img src={Pic} alt="" className='Pic1' />
+          <img src={Pic} alt="" className='Pic1'/>
         </swiper-slide>
       </swiper-container>
     </SongStyles>
