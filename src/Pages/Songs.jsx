@@ -29,7 +29,7 @@ function Songs() {
       navigation="true"
       pagination="true"
       autoplay = "true"
-      data-swiper-autoplay="2000"
+      data-swiper-autoplay="1000"
       id='Container'
       >
         <swiper-slide className = "slides" >
