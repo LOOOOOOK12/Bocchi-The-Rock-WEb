@@ -14,7 +14,6 @@ function Characters() {
       <Swiper
         className='Swiper'
         slidesPerView={1}
-        
       >
         <SwiperSlide className='Bocchi'><Bocchi/></SwiperSlide>
         <SwiperSlide className='Kita'><Kita/></SwiperSlide>
