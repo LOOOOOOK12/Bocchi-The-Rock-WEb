@@ -18,6 +18,7 @@ function Characters() {
         effect={'fade'}
         loop
         autoplay
+        disableOnInteraction = 'false'
         id = "Container"
     >
       <SwiperSlide><Bocchi/></SwiperSlide>
