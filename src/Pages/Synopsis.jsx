@@ -13,6 +13,7 @@ function Synopsis() {
       <SynopsisStyles id="Synopsis">
         <Swiper 
           className='Swiper'
+          loop
           slidesPerView={1}
           autoplay
           >
