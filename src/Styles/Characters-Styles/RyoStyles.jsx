@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const RyoStyles = styled.div`
-    height: 100vh;
-    padding: 5rem 3rem;
+    height: 100%;
+    width: 100%;
     background: #141414;
     display: flex;
     justify-content: center;
