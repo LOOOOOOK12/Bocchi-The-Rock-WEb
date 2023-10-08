@@ -13,12 +13,8 @@ function Synopsis() {
       <SynopsisStyles id="Synopsis">
         <Swiper 
           className='Swiper'
-          spaceBetween={0}
           slidesPerView={1}
           autoplay
-          // data-swiper-autoplay="2000"
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
           >
           <SwiperSlide><img src={Poster1} alt="BTR Key Visuals-1" /></SwiperSlide>
           <SwiperSlide><img src={Poster2} alt="BTR Key Visuals-2" /></SwiperSlide>
