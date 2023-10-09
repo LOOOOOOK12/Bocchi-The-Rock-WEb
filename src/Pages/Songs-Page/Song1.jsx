@@ -6,7 +6,7 @@ function Song1() {
   return (
     <Song1Styles>
       <div className="Container">
-        <img src={album1} alt="" />
+        <img src={album1} alt="Album 1" />
       </div>
     </Song1Styles>
   )
