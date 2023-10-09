@@ -2,8 +2,10 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules'
 import SongStyles from '../Styles/SongsStyles'
-import Pic from '../assets/Posters/Blu-ray_ 26_DVD_Volume_5.png'
-import Album1 from '../assets/Album Cover/Seishun_Complex_Single_Cover_29 (1).png'
+import Song1 from './Songs-Page/Song1';
+import Song2 from './Songs-Page/Song2';
+import Song3 from './Songs-Page/Song3';
+import Song4 from './Songs-Page/Song4';
 import 'swiper/css/autoplay'
 import 'swiper/css';
 
@@ -19,13 +21,16 @@ function Songs() {
         id='Container'
       >
         <SwiperSlide className = "slides" >
-          <img src={Album1} alt="" className='Pic1'/>
+          <Song1/>
         </SwiperSlide>
         <SwiperSlide className = "slides">
-          <img src={Pic} alt="" className='Pic1'/>
+          <Song2/>
         </SwiperSlide>
         <SwiperSlide className = "slides">
-          <img src={Pic} alt="" className='Pic1'/>
+          <Song3/>
+        </SwiperSlide>
+        <SwiperSlide className = "slides">
+          <Song4/>
         </SwiperSlide>
       </Swiper>
     </SongStyles>
