@@ -5,7 +5,13 @@ import album3 from '../../assets/Album Cover/Wasurete_Yaranai_Digital_Cover_29.p
 function Song3() {
   return (
     <Song3Styles>
-      <img src={album3} alt="album3" />
+      <div className="Container">
+          <img src={album3} alt="" />
+          <h2>Wasurete Yaranai</h2>
+          <audio  controls>
+            <source src="src\assets\Audio\Never forget.mp3" type="audio/mpeg" />
+          </audio>
+      </div>
     </Song3Styles>
   )
 }
