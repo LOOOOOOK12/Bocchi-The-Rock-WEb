@@ -12,7 +12,6 @@ function Bocchi() {
           <h2>Hitori Gotoh</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        
     </BocchiStyles>
   )
 }
