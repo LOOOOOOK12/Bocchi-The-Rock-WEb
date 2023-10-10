@@ -5,7 +5,13 @@ import album2 from '../../assets/Album Cover/Ano_Band_Digital_Cover_29.png'
 function Song2() {
   return (
     <Song2Styles>
-      <img src={album2} alt="album2" />
+      <div className="Container">
+          <img src={album2} alt="" />
+          <h2>Ano Band</h2>
+          <audio  controls>
+            <source src="src\assets\Audio\That band.mp3" type="audio/mpeg" />
+          </audio>
+      </div>
     </Song2Styles>
   )
 }
