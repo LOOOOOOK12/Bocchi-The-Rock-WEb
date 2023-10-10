@@ -5,7 +5,13 @@ import album4 from '../../assets/Album Cover/Seiza_ni_Naretara_Digital_Cover_29.
 function Song4() {
   return (
     <Song4Styles>
-      <img src={album4} alt="album4" />
+      <div className="Container">
+          <img src={album4} alt="" />
+          <h2>Seiza ni Naretara</h2>
+          <audio  controls>
+            <source src="src\assets\Audio\If I could be a constellation.mp3" type="audio/mpeg" />
+          </audio>
+      </div>
     </Song4Styles>
   )
 }
