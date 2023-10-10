@@ -5,9 +5,13 @@ import album1 from '../../assets/Album Cover/Seishun_Complex_Single_Cover_29 (1)
 function Song1() {
   return (
     <Song1Styles>
-      <div className="Container">
-        <img src={album1} alt="Album 1" />
-      </div>
+        <div className="Container">
+          <img src={album1} alt="" />
+          <h2>Seisyun Complex</h2>
+          <audio  controls>
+            <source src="src\assets\Audio\seisyun complex.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
     </Song1Styles>
   )
 }
