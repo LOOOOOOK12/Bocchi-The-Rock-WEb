@@ -8,7 +8,7 @@ const Song2Styles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),url("src/assets/Album Cover/Ano_Band_Digital_Cover_29.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url("src/assets/Album Cover/Ano_Band_Digital_Cover_29.png");
     background-size: cover;
 
     .Container{
@@ -18,6 +18,7 @@ const Song2Styles = styled.div`
         align-items: center;
         justify-content: center;
         padding: 3rem;
+        border-radius: 2rem;
         /* border: 2px solid transparent; */
     }
 
