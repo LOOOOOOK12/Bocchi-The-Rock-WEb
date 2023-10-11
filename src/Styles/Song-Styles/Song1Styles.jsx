@@ -6,7 +6,7 @@ const Song1Styles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.8)),url("src/assets/Album Cover/Seishun_Complex_Single_Cover_29 (1).png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url("src/assets/Album Cover/Seishun_Complex_Single_Cover_29 (1).png");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -17,6 +17,7 @@ const Song1Styles = styled.div`
         align-items: center;
         justify-content: center;
         padding: 3rem;
+        border-radius: 2rem;
         /* border: 2px solid transparent; */
     }
 
