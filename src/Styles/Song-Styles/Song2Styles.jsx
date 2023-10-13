@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import album2 from '../../assets/Album Cover/Ano_Band_Digital_Cover_29.png'
 
-
 const Song2Styles = styled.div`
     height: 100%;
     width: 100%;
