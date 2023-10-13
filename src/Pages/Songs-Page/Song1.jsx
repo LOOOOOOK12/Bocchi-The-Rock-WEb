@@ -1,18 +1,18 @@
 import React from 'react'
-import Song1Styles from '../../Styles/Song-Styles/Song1Styles'
-import album1 from '../../assets/Album Cover/Seishun_Complex_Single_Cover_29 (1).png'
 
-function Song1() {
+function Song1({ name, cover, song, AlbumBgStyle }) {
+  const StyledContainer = AlbumBgStyle;
+
   return (
-    <Song1Styles>
+    <StyledContainer>
         <div className="Container">
-          <img src={album1} alt="" />
-          <h2>Seisyun Complex</h2>
+          <img src={cover} alt="album1" />
+          <h2>{name}</h2>
           <audio  controls>
-            <source src="src\assets\Audio\seisyun complex.mp3" type="audio/mpeg" />
+            <source src={song} type="audio/mpeg" />
           </audio>
         </div>
-    </Song1Styles>
+    </StyledContainer>
   )
 }
 
