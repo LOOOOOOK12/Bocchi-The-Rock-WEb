@@ -21,18 +21,10 @@
             height: 2rem;
         }
 
-        li,a {
-            color: white;
-            font-weight: bold;
-            font-size: 1rem;
-            text-decoration: none;
-        }
-
-        ul li{
-            cursor: pointer;
-            list-style: none;
-            display: inline-block;
-            padding-left: 30px;
+        @media (max-width: 763px) {
+            ul{
+                display: none;
+            }
         }
 
     `
