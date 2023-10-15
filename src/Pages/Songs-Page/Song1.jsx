@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Song1({ name, cover, song, AlbumBgStyle }) {
+  
   const StyledContainer = AlbumBgStyle;
 
   return (
