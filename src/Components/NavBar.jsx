@@ -1,7 +1,8 @@
 import Logo from '../Images/Kessoku_Band_Logo.png'
-import Logo2 from '../assets/bocchi-the-rock-logo-00522AF4F8-seeklogo.com.png'
 import NavStyles from '../Styles/NavStyles'
+import RightNav from './RightNav'
 import { useState, useEffect } from 'react'
+import Burgir from './Burgir'
 
 function NavBAr() {
 
@@ -28,12 +29,7 @@ function NavBAr() {
       <div className='LOGO'>
           <a href="#Home"><img src={Logo} alt='LOGO'></img></a>
       </div>
-        <ul className='links'>
-          <a href="#Home"><li>Home</li></a>
-          <a href="#Synopsis"><li>Synopsis</li></a>
-          <a href="#Characters"><li>Characters</li></a>
-          <a href="#Songs"><li>Songs</li></a>
-        </ul> 
+      <Burgir />
     </NavStyles>
   )
 }
