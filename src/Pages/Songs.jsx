@@ -13,9 +13,7 @@ function Songs() {
   return (
     <SongStyles id='Songs'>
       <Swiper
-        modules={[Autoplay,EffectFade]}
-        effect={'fade'}
-        crossFade = 'true'
+        modules={[Autoplay]}
         autoplay
         loop
         id='Container'
