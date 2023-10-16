@@ -1,8 +1,19 @@
 import React from 'react'
 
-const Characters = () => {
+const Characters = ({charName, desc, image, CharBg}) => {
+
+  const StyledChar = CharBg;
+
   return (
-    <div>Characters</div>
+    <StyledChar>
+        <div className="Shape">
+          <img src={image} alt="Hitori Bocchi" /> 
+        </div>
+        <div className='Text'>
+          <h2>{charName}</h2>
+          <p>{desc}</p>
+        </div>
+    </StyledChar>
   )
 }
 
