@@ -14,9 +14,6 @@
             padding: 1rem 5%;
             transition: 0.5s;
         
-        &.active {
-            /* background: #2f2f2f; */
-        }
         img{
             height: 2rem;
         }
