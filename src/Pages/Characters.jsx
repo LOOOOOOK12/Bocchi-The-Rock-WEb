@@ -1,6 +1,10 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade, Autoplay } from 'swiper/modules'
+import { EffectFade, Autoplay } from 'swiper/modules';
+
+import CharacterPage from "../Pages/Charaters-Page/Characters"
+import {characterProfiles} from "../Pages/Songs-Page/Characters"
+
 import CharactersStyles from '../Styles/CharactersStyles'
 import Bocchi from './Charaters-Page/Bocchi';
 import Kita from './Charaters-Page/Kita';
@@ -21,6 +25,17 @@ function Characters() {
         disableOnInteraction
         id = "Container"
     >
+      {/* {characterProfiles.map((char, idx) => (
+        <SwiperSlide key={idx}>
+          <CharacterPage
+            profile = {char.image}
+            CharName = {char.CharName}
+            description = {char.description}
+            bg = {char.bg}
+          />
+        </SwiperSlide>
+      ))}
+       */}
       <SwiperSlide><Bocchi/></SwiperSlide>
       <SwiperSlide><Kita/></SwiperSlide>
       <SwiperSlide><Ryo/></SwiperSlide>
