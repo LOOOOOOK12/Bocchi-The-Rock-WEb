@@ -1,6 +1,9 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+import {  Autoplay } from 'swiper/modules';
+import 'swiper/css'
+import 'swiper/css/effect-fade'
+import 'swiper/css/autoplay'
 import SynopsisStyles from '../Styles/SynopsisStyles'
 import { posters }  from '../Pages/Songs-Page/Posters'
 
@@ -9,9 +12,9 @@ function Synopsis() {
       <SynopsisStyles id="Synopsis">
         <Swiper 
           className='Swiper'
-          autoplay
+          modules={[ Autoplay]}
           loop
-          slidesPerView={1}
+          autoplay
           >
             {posters.map((posters, idx) => (
             <SwiperSlide key={idx}>
