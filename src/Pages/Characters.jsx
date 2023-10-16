@@ -25,17 +25,18 @@ function Characters() {
         disableOnInteraction
         id = "Container"
     >
-      {/* {characterProfiles.map((char, idx) => (
+
+      {/* {characterProfiles.map((char, idx)=>(
         <SwiperSlide key={idx}>
           <CharacterPage
             profile = {char.image}
-            CharName = {char.CharName}
-            description = {char.description}
-            bg = {char.bg}
+            name = {char.name}
+            desc = {char.description}
+            backgroun = {char.bg}
           />
         </SwiperSlide>
-      ))}
-       */}
+      ))} */}
+
       <SwiperSlide><Bocchi/></SwiperSlide>
       <SwiperSlide><Kita/></SwiperSlide>
       <SwiperSlide><Ryo/></SwiperSlide>
