@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Characters = ({charName, desc, image, CharBg}) => {
+function Characters({charName, desc, image, bg}){
 
-  const StyledChar = CharBg;
+  const StyledBGContainer = bg;
 
   return (
-    <StyledChar>
+    <StyledBGContainer>
         <div className="Shape">
           <img src={image} alt="Hitori Bocchi" /> 
         </div>
@@ -13,7 +13,7 @@ const Characters = ({charName, desc, image, CharBg}) => {
           <h2>{charName}</h2>
           <p>{desc}</p>
         </div>
-    </StyledChar>
+    </StyledBGContainer>
   )
 }
 
