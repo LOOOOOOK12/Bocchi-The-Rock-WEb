@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 const RyoStyles = styled.div`
@@ -10,14 +9,15 @@ const RyoStyles = styled.div`
     align-items: center;
     text-align: center;
 
-    .Profile{
-        position: relative;
+    .Shape{
         height: 90%;
-        border-radius: 70% 30% 70% 30% / 30% 48% 52% 70%   ;
-        background: #4f4fff;
+        border-radius: 46% 54% 46% 54% / 68% 48% 52% 32%   ;
+        background: #5353ff;
     }
-    
-    .Text{   
+
+    .Text{
+        display: flex;
+        flex-direction: column;
         margin: 0 1.5rem;
     }
 
