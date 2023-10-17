@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 const NijikaStyles = styled.div`
@@ -11,16 +10,16 @@ const NijikaStyles = styled.div`
     align-items: center;
     text-align: center;
 
-    .Profile{
-        position: relative;
+    .Shape{
         height: 90%;
-        border-radius: 53% 47% 35% 65% / 50% 28% 72% 50% ;
-        background: #ffff70;
+        border-radius: 46% 54% 46% 54% / 68% 48% 52% 32%   ;
+        background: #ffff4c;
     }
 
     .Text{
-        
-        margin: 3rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 1.5rem;
     }
 
     img{ 
