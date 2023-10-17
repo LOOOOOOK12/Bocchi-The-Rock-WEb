@@ -19,7 +19,7 @@ function Songs() {
         autoplay
         loop
         id='Container'
-      >
+        >
         {songs.map((song, idx) => (
           <SwiperSlide key={idx}>
             <Song1 
