@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CharactersPage({charName, desc, image, bg}) {
+function CharactersPage({CharName, description, image, bg}) {
   
   const StyledBGContainer = bg;
 
@@ -10,8 +10,8 @@ function CharactersPage({charName, desc, image, bg}) {
           <img src={image} alt="Hitori Bocchi" /> 
         </div>
         <div className='Text'>
-          <h2>{charName}</h2>
-          <p>{desc}</p>
+          <h2>{CharName}</h2>
+          <p>{description}</p>
         </div>
     </StyledBGContainer>
   )
