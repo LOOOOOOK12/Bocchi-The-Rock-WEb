@@ -9,6 +9,7 @@ import RyoStyles from "../../Styles/Characters-Styles/RyoStyles"
 import NijikaStyles from "../../Styles/Characters-Styles/NijikaStyles"
 
 export const characterProfiles = [
+    
     {
         image: BocchiPicture,
         CharName:"Hitori Gotoh",
