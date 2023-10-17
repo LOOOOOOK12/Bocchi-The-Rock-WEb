@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 const KitaStyles = styled.div`
@@ -11,16 +10,16 @@ const KitaStyles = styled.div`
     align-items: center;
     text-align: center;
 
-    .Profile{
-        position: relative;
+    .Shape{
         height: 90%;
-        border-radius: 53% 47% 59% 41% / 59% 22% 78% 41%;
-        background: #ff3737;
+        border-radius: 46% 54% 46% 54% / 68% 48% 52% 32%   ;
+        background: #ff1919;
     }
 
     .Text{
-        
-        margin: 3rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 1.5rem;
     }
 
     img{ 
