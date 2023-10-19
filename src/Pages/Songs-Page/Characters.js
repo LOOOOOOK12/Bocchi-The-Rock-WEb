@@ -13,28 +13,28 @@ export const characterProfiles = [
     {
         image: BocchiPicture,
         CharName:"Hitori Gotoh",
-        description:"lorem",
+        description:"Hitori Gotoh (後ご藤とう ひとり Gotō Hitori), often referred by her bandmates as Bocchi-chan (ぼっちちゃん), is the titular main protagonist of the manga and anime series, Bocchi the Rock!. She is in the first year of Shuka High School and is in charge of the guitar and lyrics of the band, Kessoku Band.",
         bg: BocchiStyles
     },
 
     {
         image: KitaPicture,
         CharName:"Kita Ikuyo",
-        description: "lorem",
+        description: "Ikuyo Kita (喜き多た 郁いく代よ Kita Ikuyo) is one of the main characters in the manga and anime series, Bocchi the Rock!. She is in the first year of Shuka High School and is in charge of the guitar and vocals of the band, Kessoku Band. She has great admiration for Ryo Yamada, after seeing her street concert.",
         bg: KitaStyles
     },
 
     {
         image: NijikaPicture,
         CharName:"Nijika Ichiji",
-        description:"lorem",
+        description:"Ryo Yamada (山やま田だ リョウ Yamada Ryō) is one of the main characters in the manga and anime series, Bocchi the Rock!. She is in her second year at Shimokitazawa High School and is the bassist of the band, Kessoku Band. She works a part-time job at the live house STARRY with Nijika Ijichi.",
         bg: NijikaStyles
     },
 
     {
         image: RyoPicture,
         CharName:"Ryo Yamada",
-        description:"lorem",
+        description:"Nijika Ijichi (伊い地じ知ち 虹にじ夏か Ijichi Nijika) is one of the main characters in the manga and anime series, Bocchi the Rock!. She is a second-year student of Shimokitazawa High School and is the drummer in the band, Kessoku Band.",
         bg: RyoStyles
     },
 ]
