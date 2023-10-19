@@ -20,6 +20,12 @@ const FooterStyles = styled.div`
 
     .right-Container{
         display: flex;
+        font-weight: 700;
+    }
+
+    hr{
+        width: 100%;
+        border: 1px solid #1c1c1c;
     }
 
     a{
@@ -40,6 +46,7 @@ const FooterStyles = styled.div`
     @media (max-width: 375px) {
         .right-Container{
             flex-direction: column;
+            gap:1rem
         }
     }
 
