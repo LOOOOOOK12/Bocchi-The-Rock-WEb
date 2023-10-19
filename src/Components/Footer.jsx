@@ -15,6 +15,7 @@ function Footer() {
           <a href="#Songs">Songs</a>
         </div>
       </div>
+      <hr />
       <div className='Container-2'>
           <p>Made with Love by Luke Symon Alamil</p>
       </div>
