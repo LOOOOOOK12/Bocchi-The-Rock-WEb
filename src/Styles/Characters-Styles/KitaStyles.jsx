@@ -20,6 +20,7 @@ const KitaStyles = styled.div`
         display: flex;
         flex-direction: column;
         margin: 0 1.5rem;
+        width: 25rem;
     }
 
     img{ 
