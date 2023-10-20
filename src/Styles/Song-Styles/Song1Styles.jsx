@@ -11,14 +11,14 @@ const Song1Styles = styled.div`
     background-repeat: no-repeat;
     
     .Container{
-        backdrop-filter: blur(8px);
+        backdrop-filter:blur(5px);
+        background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4));
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 3rem;
         border-radius: 2rem;
-        /* border: 2px solid transparent; */
     }
 
     img{
