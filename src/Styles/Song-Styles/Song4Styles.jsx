@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import album4 from '../../assets/Album Cover/Seiza_ni_Naretara_Digital_Cover_29.png'
 
 const Song4Styles = styled.div`
     height: 100%;
@@ -12,13 +11,13 @@ const Song4Styles = styled.div`
 
     .Container{
         backdrop-filter: blur(8px);
+        background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4));
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 3rem;
         border-radius: 2rem;
-        /* border: 2px solid transparent; */
     }
 
     img{
