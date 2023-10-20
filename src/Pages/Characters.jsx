@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 
@@ -18,7 +19,6 @@ function Characters() {
         effect={'fade'}
         loop
         autoplay
-        disableOnInteraction
         id = "Container"
       >
 
@@ -32,12 +32,6 @@ function Characters() {
             />
           </SwiperSlide>
         ))}
-
-        {/* <SwiperSlide><Bocchi/></SwiperSlide>
-        <SwiperSlide><Kita/></SwiperSlide>
-        <SwiperSlide><Ryo/></SwiperSlide>
-        <SwiperSlide><Nijika/></SwiperSlide> */}
-        
       </Swiper>
     </CharactersStyles>
   )
