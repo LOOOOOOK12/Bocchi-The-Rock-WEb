@@ -23,7 +23,10 @@ const Song4Styles = styled.div`
     img{
         height: 20rem;
         width: 20rem;
+        border-radius: 2.5rem;
     }
+
+    
     
 `
 
