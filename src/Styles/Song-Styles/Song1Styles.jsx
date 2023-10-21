@@ -11,8 +11,8 @@ const Song1Styles = styled.div`
     background-repeat: no-repeat;
     
     .Container{
-        backdrop-filter:blur(5px);
-        background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4));
+        backdrop-filter:blur(6px);
+        background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3));
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -24,6 +24,11 @@ const Song1Styles = styled.div`
     img{
         height: 20rem;
         width: 20rem;
+        border-radius: 2rem;
+    }
+
+    audio{
+        width: 100%;
     }
 `
 
