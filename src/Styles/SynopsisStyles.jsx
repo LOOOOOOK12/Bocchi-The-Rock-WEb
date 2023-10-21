@@ -10,8 +10,8 @@ const SynopsisStyles = styled.div`
     background: #222222;
 
     .Swiper{
-        height: 35rem;
-        width: 25rem;
+        height: 32rem;
+        width: 23rem;
     }
 
     img{
@@ -22,7 +22,7 @@ const SynopsisStyles = styled.div`
     .Text-1{
         display: flex;
         width: 30rem;
-        margin: 0 3rem;
+        margin: 0 2rem;
         line-height: 1.9rem;
         font-size: 1.2rem;
     }
@@ -32,7 +32,12 @@ const SynopsisStyles = styled.div`
             flex-direction: column;
 
         .Swiper{
-            height:100%;
+            height:30rem;
+            width: 20rem;
+        }
+
+        img{
+            height: 100%;
         }
 
         .Text-1{
@@ -44,7 +49,12 @@ const SynopsisStyles = styled.div`
 
         @media (max-width: 510px) {
             .Swiper{
+            height:27rem;
             width: 20rem;
+        }
+
+        img{
+            height: 100%;
         }
 
         .Text-1{
@@ -56,7 +66,7 @@ const SynopsisStyles = styled.div`
 
         @media (max-width: 425px) {
             .Swiper{
-            width: 14rem;
+            width: 16rem;
         }
 
         }
