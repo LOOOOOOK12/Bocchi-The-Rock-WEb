@@ -46,7 +46,7 @@ const FooterStyles = styled.div`
     @media (max-width: 375px) {
         .right-Container{
             flex-direction: column;
-            gap:1rem
+            gap:1rem;
         }
     }
 
