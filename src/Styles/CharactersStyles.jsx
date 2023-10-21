@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const CharactersStyles = styled.div`
     height: 100vh;
-    background: yellow ;
+    background: #151515 ;
 
     #Container{
         height: 100%;
