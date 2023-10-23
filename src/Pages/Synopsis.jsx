@@ -5,7 +5,7 @@ import 'swiper/css'
 import 'swiper/css/effect-fade'
 import 'swiper/css/autoplay'
 import SynopsisStyles from '../Styles/SynopsisStyles'
-import { posters }  from '../Pages/Songs-Page/Posters'
+import { posters }  from '../Constants/Posters'
 
 function Synopsis() {
   return (
