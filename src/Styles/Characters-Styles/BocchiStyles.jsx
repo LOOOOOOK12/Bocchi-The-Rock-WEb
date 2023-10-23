@@ -20,15 +20,27 @@ const BocchiStyles = styled.div`
         display: flex;
         flex-direction: column;
         margin: 0 1.5rem;
-        width: 25rem;
+        width: 350px;
     }
 
     img{ 
         height: 100%;
     }
 
-    @media (max-width: 700px) {
-        
+    @media (max-width: 550px) {
+        .Text{
+        font-size: 13px;
+    }
+    }
+
+    @media (max-width: 425px) {
+        .Text{
+        font-size: 12px;
+    }
+
+    .Shape{
+        height: 70%;
+    }
     }
 
     
