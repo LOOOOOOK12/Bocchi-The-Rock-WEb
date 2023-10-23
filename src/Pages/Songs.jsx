@@ -7,7 +7,7 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/autoplay'
 
 import Song1 from './Songs-Page/Song1';
-import { songs } from './Songs-Page/Songs';
+import { songs } from '../Constants/Songs';
 
 function Songs() {
 
