@@ -27,8 +27,20 @@ const NijikaStyles = styled.div`
         height: 100%;
     }
 
-    @media (max-width: 700px) {
-        
+    @media (max-width: 550px) {
+        .Text{
+        font-size: 13px;
+    }
+    }
+
+    @media (max-width: 425px) {
+        .Text{
+        font-size: 12px;
+    }
+
+    .Shape{
+        height: 70%;
+    }
     }
 
 `
