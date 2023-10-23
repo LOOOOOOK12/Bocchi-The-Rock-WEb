@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 
 import CharactersPage from "./Charaters-Page/CharactersPage"
-import {characterProfiles} from "../Pages/Songs-Page/Characters"
+import {characterProfiles} from "../Constants/Characters"
 
 import CharactersStyles from '../Styles/CharactersStyles'
 import 'swiper/css';
