@@ -34,6 +34,10 @@ const FooterStyles = styled.div`
         margin: 0 1rem;
     }
 
+    img{
+        height: 5rem;
+    }
+
     @media (max-width: 465px) {
         flex-direction:column;
     }
