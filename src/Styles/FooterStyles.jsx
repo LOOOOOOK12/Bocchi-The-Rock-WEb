@@ -47,7 +47,7 @@ const FooterStyles = styled.div`
     }
 
     img{
-        height: 5rem;
+        height: 4rem;
     }
 
     @media (max-width: 465px) {
