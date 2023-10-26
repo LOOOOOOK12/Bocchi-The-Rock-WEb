@@ -12,7 +12,7 @@ function Synopsis() {
       <SynopsisStyles id="Synopsis">
         <Swiper 
           className='Swiper'
-          modules={[ Autoplay]}
+          modules={[Autoplay]}
           loop
           autoplay
           >
