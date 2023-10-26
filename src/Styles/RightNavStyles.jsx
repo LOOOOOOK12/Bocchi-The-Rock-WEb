@@ -16,7 +16,7 @@ const RightNavStyles = styled.div`
         }
 
     li{
-        margin: 1.5rem;
+        margin:1.5rem;
     }
 
     ul{ 
