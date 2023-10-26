@@ -16,9 +16,15 @@ const BocchiStyles = styled.div`
         background: #ffa1b1;
     }
 
+    h2{
+        text-align: center;
+    }
+
     .Text{
         display: flex;
         flex-direction: column;
+        text-align: left;
+        line-height: 1.8rem;
         margin: 0 1.5rem;
         width: 350px;
     }
@@ -38,8 +44,17 @@ const BocchiStyles = styled.div`
         font-size: 12px;
     }
 
+    
+
     .Shape{
         height: 70%;
+    }
+    }
+
+    @media (max-width: 375px) {
+        .Text{
+        font-size: 13px;
+        line-height: 1.5rem;
     }
     }
 
