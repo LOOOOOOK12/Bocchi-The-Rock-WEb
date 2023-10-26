@@ -38,8 +38,6 @@ const BurgirStyles = styled.div`
         flex-flow: column nowrap;
     }
 
-   
-
 
 `
 
