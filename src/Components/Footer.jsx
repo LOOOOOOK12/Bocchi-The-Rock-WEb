@@ -1,12 +1,13 @@
 import React from 'react'
 import FooterStyles from '../Styles/FooterStyles'
+import FooterLogo from '../assets/Bocchi_the_Rock 21_English_Logo.png'
 
 function Footer() {
   return (
     <FooterStyles>
       <div className='Container-1'>
         <div className='left-Container'>
-          <h2>Bocchi the Rock Website</h2>
+          <img src={FooterLogo} />
         </div>
         <div className='right-Container'>
           <a href="#Home">Home</a>
