@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const FooterStyles = styled.div`
     padding: 2rem 1.5rem;
-    background-color: #ffff32;
+    background-color: #ffff04;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +17,18 @@ const FooterStyles = styled.div`
         justify-content: space-around;
         flex-direction: row;
     }
+
+    .Container-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Links img{
+        height: 3rem;
+    }
+
 
     .right-Container{
         display: flex;
