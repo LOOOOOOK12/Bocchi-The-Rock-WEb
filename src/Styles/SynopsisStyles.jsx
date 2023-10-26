@@ -21,6 +21,7 @@ const SynopsisStyles = styled.div`
 
     .Text-1{
         display: flex;
+        text-align: left;
         width: 30rem;
         margin: 0 2rem;
         line-height: 1.9rem;
