@@ -1,11 +1,8 @@
 import React from 'react'
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
-
 import CharactersPage from "./Charaters-Page/CharactersPage"
 import {characterProfiles} from "../Constants/Characters"
-
 import CharactersStyles from '../Styles/CharactersStyles'
 import 'swiper/css';
 import 'swiper/css/effect-fade'
@@ -21,7 +18,6 @@ function Characters() {
         autoplay
         id = "Container"
       >
-
         {characterProfiles.map((profiles, idx) => (
           <SwiperSlide key={idx}>
             <CharactersPage
