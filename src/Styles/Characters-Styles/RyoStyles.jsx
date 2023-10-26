@@ -15,11 +15,18 @@ const RyoStyles = styled.div`
         background: #5353ff;
     }
 
+    
+    h2{
+        text-align: center;
+    }
+
     .Text{
         display: flex;
         flex-direction: column;
+        text-align: left;
+        line-height: 1.8rem;
         margin: 0 1.5rem;
-        width: 25rem;
+        width: 350px;
     }
 
     img{ 
