@@ -15,7 +15,10 @@ function Characters() {
         modules={[EffectFade, Autoplay]}
         effect={'fade'}
         loop
-        autoplay
+        autoplay = {{
+          disableOnInteraction:false,
+          delay: 3000
+        }}
         id = "Container"
       >
         {characterProfiles.map((profiles, idx) => (
