@@ -26,7 +26,7 @@ const FooterStyles = styled.div`
     }
 
     .Links img{
-        height: 3rem;
+        height: 2.7rem;
     }
 
 
@@ -37,6 +37,7 @@ const FooterStyles = styled.div`
 
     hr{
         width: 100%;
+        margin: 1.5rem 0;
         border: 1px solid #1c1c1c;
     }
 
@@ -47,7 +48,7 @@ const FooterStyles = styled.div`
     }
 
     img{
-        height: 4rem;
+        height: 4.5rem;
     }
 
     @media (max-width: 465px) {
