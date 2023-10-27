@@ -13,8 +13,11 @@ function Synopsis() {
         <Swiper 
           className='Swiper'
           modules={[Autoplay]}
+          autoplay = {{
+            disableOnInteraction:false,
+            delay: 3000
+          }}
           loop
-          autoplay
           >
             {posters.map((posters, idx) => (
             <SwiperSlide key={idx}>
