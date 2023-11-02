@@ -25,6 +25,10 @@ const Song3Styles = styled.div`
         width: 20rem;
         border-radius: 2.5rem;
     }
+
+    audio{
+        width: 100%;
+    }
 `
 
 export default Song3Styles
