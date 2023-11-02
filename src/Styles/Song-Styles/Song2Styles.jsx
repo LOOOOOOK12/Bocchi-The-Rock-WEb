@@ -25,6 +25,10 @@ const Song2Styles = styled.div`
         width: 20rem;
         border-radius: 2rem;
     }
+
+    audio{
+        width: 100%;
+    }
 `
 
 export default Song2Styles
