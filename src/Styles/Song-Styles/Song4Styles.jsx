@@ -26,6 +26,9 @@ const Song4Styles = styled.div`
         border-radius: 2.5rem;
     }
 
+    audio{
+        width: 100%;
+    }
     
     
 `
