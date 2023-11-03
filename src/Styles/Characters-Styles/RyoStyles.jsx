@@ -5,6 +5,7 @@ const RyoStyles = styled.div`
     width: 100%;
     background: #141414;
     display: flex;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
     text-align: center;
