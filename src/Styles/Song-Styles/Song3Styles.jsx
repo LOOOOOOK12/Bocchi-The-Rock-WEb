@@ -11,7 +11,7 @@ const Song3Styles = styled.div`
 
     .Container{
         backdrop-filter: blur(8px);
-        background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4));
+        background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3));
         display: flex;
         flex-direction: column;
         align-items: center;
