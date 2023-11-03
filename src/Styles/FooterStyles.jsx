@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const FooterStyles = styled.div`
     padding: 2rem 1.5rem;
+    gap: .5rem;
     background-color: #ffff04;
     display: flex;
     flex-direction: column;
@@ -37,7 +38,7 @@ const FooterStyles = styled.div`
 
     hr{
         width: 100%;
-        margin: 1.5rem 0;
+        margin: 1rem 0;
         border: 1px solid #1c1c1c;
     }
 
