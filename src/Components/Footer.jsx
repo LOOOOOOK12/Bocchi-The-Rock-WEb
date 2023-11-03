@@ -28,7 +28,7 @@ function Footer() {
             
           ))}
         </div>
-          <p>Made with Love by Luke Symon Alamil</p>
+          <p>Made with <span style={{ color: 'red' }} >♥</span> by Luke Symon Alamil</p>
       </div>
     </FooterStyles>
   )
