@@ -6,6 +6,7 @@ const BocchiStyles = styled.div`
     background: #141414;
     position: relative;
     display: flex;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
     text-align: center;
