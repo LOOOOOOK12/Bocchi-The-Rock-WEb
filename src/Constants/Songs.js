@@ -15,7 +15,8 @@ export const songs = [
         alt: "album 1",
         SongName: "Seisyun Complex",
         song: "src/assets/Audio/seisyun complex.mp3",
-        albumBackGround: Song1Styles
+        albumBackGround: Song1Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seishun_Complex"
     },
 
     {
@@ -23,7 +24,8 @@ export const songs = [
         alt: "album 2",
         SongName: "Ano Band",
         song: "src/assets/Audio/That band.mp3",
-        albumBackGround: Song2Styles
+        albumBackGround: Song2Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Ano_Band"
     },
 
     {
@@ -31,7 +33,8 @@ export const songs = [
         alt: "album 3",
         SongName: "Wasurete Yaranai",
         song: "src/assets/Audio/Never forget.mp3",
-        albumBackGround: Song3Styles
+        albumBackGround: Song3Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Wasurete_Yaranai"
     },
 
     {
@@ -39,8 +42,16 @@ export const songs = [
         alt: "album 4",
         SongName: "Seiza ni Naretara",
         song: "src/assets/Audio/If I could be a constellation.mp3",
-        albumBackGround: Song4Styles
+        albumBackGround: Song4Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seiza_ni_Naretara"
     },
 
-    
+    {
+        albumCover: album4,
+        alt: "album 4",
+        SongName: "Seiza ni Naretara",
+        song: "src/assets/Audio/If I could be a constellation.mp3",
+        albumBackGround: Song4Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seiza_ni_Naretara"
+    }
 ]
