@@ -9,7 +9,7 @@ const Song1Styles = styled.div`
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url("src/assets/Album Cover/Seishun_Complex_Single_Cover_29 (1).png");
     background-size: cover;
     background-repeat: no-repeat;
-    
+
     .Container{
         backdrop-filter:blur(6px);
         background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3));
@@ -21,15 +21,33 @@ const Song1Styles = styled.div`
         border-radius: 2rem;
     }
 
-    img{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .img-Container
+    {
         height: 20rem;
         width: 20rem;
+    }
+
+    img{
+        height: 100%;
+        width: 100%;
         border-radius: 2rem;
     }
 
     audio{
         width: 100%;
     }
+
+    @media (max-width: 565px) {
+        .Text{
+        font-size: 13px;
+    }
+}
+    
 `
 
 export default Song1Styles
