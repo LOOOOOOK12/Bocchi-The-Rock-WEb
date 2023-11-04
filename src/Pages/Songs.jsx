@@ -10,22 +10,6 @@ import Song1 from './Songs-Page/Song1';
 import { songs } from '../Constants/Songs';
 
 function Songs() {
-  const [pause, setPause] = useState(false);
-  const [currentSlide, setCurrentSlide] = useState(0); // State to track the current slide index
-
-  // Add an event handler to track swiper slide change
-  const handleSlideChange = (swiper) => {
-    setCurrentSlide(swiper.activeIndex);
-  };
-
-  // Use useEffect to listen for changes in the current slide index
-  useEffect(() => {
-    // Check if 'pause' state is true and take appropriate action to pause the music
-    if (pause) {
-      // Add code here to pause the music (e.g., call a function to pause the music player)
-      musicPlayer.pause();
-    }
-  }, [currentSlide, pause]);
 
   return (
     <SongStyles id="Songs">
@@ -33,11 +17,11 @@ function Songs() {
         modules={[Autoplay, EffectFade]}
         effect="fade"
         autoplay = {{
-          disableOnInteraction:false,
+          disableOnInteraction:true,
           delay: 3000
         }}
         loop
-        onSlideChange={handleSlideChange} // Add slide change event handler
+        
         id="Container"
       >
         {songs.map((song, idx) => (
@@ -47,6 +31,7 @@ function Songs() {
               cover={song.albumCover}
               song={song.song}
               AlbumBgStyle={song.albumBackGround}
+              lyrics={song.lyrics}
             />
           </SwiperSlide>
         ))}
