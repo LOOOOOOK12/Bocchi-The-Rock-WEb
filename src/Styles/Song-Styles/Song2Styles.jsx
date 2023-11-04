@@ -20,6 +20,11 @@ const Song2Styles = styled.div`
         border-radius: 2rem;
     }
 
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
     img{
         height: 20rem;
         width: 20rem;
