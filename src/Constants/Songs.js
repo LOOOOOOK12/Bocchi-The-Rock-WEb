@@ -3,12 +3,16 @@ import album2 from '../assets/Album Cover/Ano_Band_Digital_Cover_29.png'
 import album3 from '../assets/Album Cover/Wasurete_Yaranai_Digital_Cover_29.png'
 import album4 from '../assets/Album Cover/Seiza_ni_Naretara_Digital_Cover_29.png'
 import album5 from '../assets/Album Cover/Distortion21_Digital_Cover_29.png'
+import album6 from '../assets/Album Cover/Kessoku_Band_Album_Cover_29.png'
+import album7 from '../assets/Album Cover/Nani_ga_Warui_Digital_Cover_29.png'
 
 import Song1Styles from '../Styles/Song-Styles/Song1Styles'
 import Song2Styles from '../Styles/Song-Styles/Song2Styles'
 import Song3Styles from '../Styles/Song-Styles/Song3Styles'
 import Song4Styles from '../Styles/Song-Styles/Song4Styles'
 import Song6Styles from '../Styles/Song-Styles/Song6Styles'
+import Song7Styles from '../Styles/Song-Styles/Song7Styles'
+import Song8Styles from '../Styles/Song-Styles/Song8Styles'
 
 export const songs = [
 
@@ -63,6 +67,24 @@ export const songs = [
         SongName: "Distortion!!",
         song: "src/assets/Audio/Distortion!!.mp3",
         albumBackGround: Song6Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
+    },
+
+    {
+        albumCover: album6,
+        alt: "Himitsu Kichi (Album Cover)",
+        SongName: "Himitsu Kichi",
+        song: "src/assets/Audio/Secret base.mp3",
+        albumBackGround: Song7Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
+    },
+
+    {
+        albumCover: album7,
+        alt: "Nani Ga Warui (Album Cover)",
+        SongName: "Nani Ga Warui",
+        song: "src/assets/Audio/What is wrong with.mp3",
+        albumBackGround: Song8Styles,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
     }
 ]
