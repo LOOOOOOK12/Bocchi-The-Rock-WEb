@@ -76,7 +76,7 @@ export const songs = [
         SongName: "Himitsu Kichi",
         song: "src/assets/Audio/Secret base.mp3",
         albumBackGround: Song7Styles,
-        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Himitsu_Kichi"
     },
 
     {
@@ -85,6 +85,6 @@ export const songs = [
         SongName: "Nani Ga Warui",
         song: "src/assets/Audio/What is wrong with.mp3",
         albumBackGround: Song8Styles,
-        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Nani_ga_Warui"
     }
 ]
