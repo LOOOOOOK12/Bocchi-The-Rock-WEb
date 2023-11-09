@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 const SongsStyles = styled.div`
@@ -6,6 +5,7 @@ const SongsStyles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    
     #Container{
         height: 100%;
         width: 100%;
