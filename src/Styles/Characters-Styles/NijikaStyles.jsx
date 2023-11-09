@@ -27,7 +27,7 @@ const NijikaStyles = styled.div`
         flex-direction: column;
         text-align: left;
         line-height: 1.8rem;
-        margin: 0 1.5rem;
+        margin: 0 1rem;
         width: 350px;
     }
 
@@ -42,6 +42,9 @@ const NijikaStyles = styled.div`
     }
 
     @media (max-width: 425px) {
+
+        gap: 0rem;
+
         .Text{
         font-size: 12px;
     }
