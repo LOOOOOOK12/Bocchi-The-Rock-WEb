@@ -17,8 +17,8 @@ const Song1Styles = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 3rem;
-        border-radius: 2rem;
+        padding: 2.2rem;
+        border-radius: 2.5rem;
     }
 
     a{
@@ -42,9 +42,10 @@ const Song1Styles = styled.div`
         width: 100%;
     }
 
-    @media (max-width: 565px) {
-        .Text{
-        font-size: 13px;
+    @media (max-width: 425px) {
+        .img-Container{
+        height: 20rem;
+        width: 17rem;
     }
 }
     
