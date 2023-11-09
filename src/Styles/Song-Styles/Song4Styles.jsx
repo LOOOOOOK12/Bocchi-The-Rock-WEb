@@ -16,7 +16,7 @@ const Song4Styles = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 3rem;
+        padding: 2.2rem;
         border-radius: 2rem;
     }
 
@@ -25,9 +25,14 @@ const Song4Styles = styled.div`
         color: white;
     }
 
-    img{
+    .img-Container{
         height: 20rem;
         width: 20rem;
+    }
+
+    img{
+        height: 100%;
+        width: 100%;
         border-radius: 2.5rem;
     }
 
@@ -35,6 +40,12 @@ const Song4Styles = styled.div`
         width: 100%;
     }
     
+    @media (max-width: 425px) {
+        .img-Container{
+        height: 20rem;
+        width: 17rem;
+    }
+}
     
 `
 
