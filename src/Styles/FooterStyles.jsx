@@ -4,7 +4,8 @@ import styled from 'styled-components'
 const FooterStyles = styled.div`
     padding: 2rem 1.5rem;
     gap: .5rem;
-    background-color: #ffff04;
+    background: #F6FF60;
+    background: radial-gradient(at center, #ffff68, #e6d515);
     display: flex;
     flex-direction: column;
     align-items: center;
