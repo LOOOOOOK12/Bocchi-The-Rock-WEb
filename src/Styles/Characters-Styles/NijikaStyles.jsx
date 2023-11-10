@@ -47,6 +47,7 @@ const NijikaStyles = styled.div`
 
         .Text{
         font-size: 12px;
+        line-height: 1.5rem;
     }
 
     .Shape{
@@ -54,5 +55,12 @@ const NijikaStyles = styled.div`
     }
     }
 
+    @media (max-width: 320px) {
+
+    .Text{
+        font-size: 9px;
+        line-height: 1.5rem;
+        }
+    }
 `
 export default NijikaStyles
