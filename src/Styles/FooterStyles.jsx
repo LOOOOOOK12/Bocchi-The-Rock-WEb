@@ -1,11 +1,10 @@
-import React from 'react'
 import styled from 'styled-components'
 
 const FooterStyles = styled.div`
     padding: 2rem 1.5rem;
     gap: .5rem;
     background: #F6FF60;
-    background: radial-gradient(at center, #ffff68, #e6d515);
+    background: radial-gradient(at center, #f9f975, #ead91a);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +46,7 @@ const FooterStyles = styled.div`
         color: #131313;
         text-decoration: none;
         margin: 0 1rem;
+        font-weight: 600;
     }
 
     img{
