@@ -50,15 +50,23 @@ const BocchiStyles = styled.div`
     }
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 425px) {
 
         gap: 0rem;
 
         .Text{
-        font-size: 13px;
+        font-size: 12px;
         line-height: 1.5rem;
     }
     }
+
+    @media (max-width: 320px) {
+
+        .Text{
+        font-size: 9px;
+        line-height: 1.2rem;
+        }
+}
 
     
 `
