@@ -17,7 +17,7 @@ function Characters() {
         loop
         autoplay = {{
           disableOnInteraction:false,
-          delay: 3000
+          delay: 5000
         }}
         id = "Container"
       >
