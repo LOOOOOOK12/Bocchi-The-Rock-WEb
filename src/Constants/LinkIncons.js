@@ -19,7 +19,7 @@ export const LinkIcons = [
 {
     Logo:Instagram,
     alt: "Instagram Link",
-    link:""
+    link:"https://www.instagram.com"
 },
 {
     Logo:LinkedIn,
