@@ -46,11 +46,20 @@ const RyoStyles = styled.div`
 
         .Text{
         font-size: 12px;
+        line-height: 1.5rem;
     }
 
     .Shape{
         height: 70%;
     }
+    }
+
+    @media (max-width: 320px) {
+
+    .Text{
+        font-size: 9px;
+        line-height: 1.5rem;
+        }
     }
 `
 
