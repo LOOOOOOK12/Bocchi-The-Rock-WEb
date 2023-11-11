@@ -22,7 +22,7 @@ const Song2Styles = styled.div`
 
     a{
         text-decoration: none;
-        color: white;
+        color: #e1e1e1;
     }
 
     img{
