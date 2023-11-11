@@ -13,7 +13,11 @@
             text-align: center;
             padding: 1rem 5%;
             transition: 0.5s;
-            
+
+        li{
+            color: #e1e1e1;
+        }
+
         img{
             height: 2rem;
         }
