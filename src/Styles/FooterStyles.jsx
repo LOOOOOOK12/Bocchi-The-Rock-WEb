@@ -49,6 +49,11 @@ const FooterStyles = styled.div`
         font-weight: 600;
     }
 
+    .Credits{
+        color: #131313;
+        font-weight: 500 ;
+    }
+
     img{
         height: 4.5rem;
     }
