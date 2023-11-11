@@ -28,7 +28,7 @@ function Footer() {
             
           ))}
         </div>
-          <p>Made with 
+          <p className='Credits'>Made with 
             <span style={{ color: 'pink', marginRight:'3px'}} >♥</span>
             <span style={{ color: 'red', marginRight:'3px' }} >♥</span>
             <span style={{ color: 'blue', marginRight:'3px' }} >♥</span>
