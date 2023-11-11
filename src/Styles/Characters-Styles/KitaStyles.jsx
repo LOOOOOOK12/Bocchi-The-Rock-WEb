@@ -22,6 +22,7 @@ const KitaStyles = styled.div`
     }
 
     .Text{
+        color: #e1e1e1;
         display: flex;
         flex-direction: column;
         text-align: left;
