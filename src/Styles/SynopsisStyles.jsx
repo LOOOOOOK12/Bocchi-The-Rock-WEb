@@ -20,6 +20,7 @@ const SynopsisStyles = styled.div`
     }
 
     .Text-1{
+        color: #e1e1e1;
         display: flex;
         text-align: left;
         width: 30rem;
