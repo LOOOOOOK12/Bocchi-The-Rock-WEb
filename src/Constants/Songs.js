@@ -5,6 +5,7 @@ import album4 from '../assets/Album Cover/Seiza_ni_Naretara_Digital_Cover_29.png
 import album5 from '../assets/Album Cover/Distortion21_Digital_Cover_29.png'
 import album6 from '../assets/Album Cover/Kessoku_Band_Album_Cover_29.png'
 import album7 from '../assets/Album Cover/Nani_ga_Warui_Digital_Cover_29.png'
+import album8 from '../assets/Album Cover/Karakara_Digital_Cover_29.png'
 
 import Song1Styles from '../Styles/Song-Styles/Song1Styles'
 import Song2Styles from '../Styles/Song-Styles/Song2Styles'
@@ -13,6 +14,7 @@ import Song4Styles from '../Styles/Song-Styles/Song4Styles'
 import Song6Styles from '../Styles/Song-Styles/Song6Styles'
 import Song7Styles from '../Styles/Song-Styles/Song7Styles'
 import Song8Styles from '../Styles/Song-Styles/Song8Styles'
+import Song9Styles from '../Styles/Song-Styles/Song9Styles'
 
 export const songs = [
 
@@ -86,5 +88,14 @@ export const songs = [
         song: "src/assets/Audio/What is wrong with.mp3",
         albumBackGround: Song8Styles,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Nani_ga_Warui"
+    },
+
+    {
+        albumCover: album8,
+        alt: "Karakara (Album Cover)",
+        SongName: "Karakara",
+        song: "src/assets/Audio/Karakara.mp3",
+        albumBackGround: Song9Styles,
+        lyrics:"https://bocchi-the-rock.fandom.com/wiki/Karakara"
     }
 ]
