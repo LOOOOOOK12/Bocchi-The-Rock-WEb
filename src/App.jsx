@@ -2,9 +2,11 @@ import './App.css'
 import Nav from './Components/NavBAr'
 import Home from "./Pages/Home"
 import Synopsis from "./Pages/Synopsis"
+import Band from './Pages/Band'
 import Characters from './Pages/Characters'
 import Songs from "./Pages/Songs"
 import Footer from "./Components/Footer"
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Nav/>
       <Home/>
       <Synopsis/>
+      <Band/>
       <Characters/>
       <Songs/>
       <Footer/>
