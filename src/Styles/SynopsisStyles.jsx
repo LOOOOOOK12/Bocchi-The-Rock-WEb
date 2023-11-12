@@ -8,10 +8,11 @@ const SynopsisStyles = styled.div`
     text-align: center;
     padding: 5rem 3rem;
     background: #222222;
+    gap: 2.5rem;
 
     .Swiper{
-        height: 32rem;
-        width: 23rem;
+        height: 38rem;
+        width: 25rem;
     }
 
     img{
@@ -23,8 +24,8 @@ const SynopsisStyles = styled.div`
         color: #e1e1e1;
         display: flex;
         text-align: left;
-        width: 30rem;
-        margin: 0 2rem;
+        width: 33rem;
+        margin-right: 4rem;
         line-height: 1.9rem;
         font-size: 1.2rem;
     }
