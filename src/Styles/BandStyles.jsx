@@ -2,20 +2,29 @@ import styled from 'styled-components';
 
 const BandStyles = styled.div`
     position: relative;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url("src/assets/Album Cover/Bocchi_the_Rock28Twitter_.png");
-    background-size: cover;
-    background-position: 50%;
+
+    .bg-Video{
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+        z-index: -1;
+        opacity: 0.8;
+        
+    }
+
 
 
     h1{
-        color: #fbfbfb;
+        color: #eaeaea;
         font-size: 3rem;
         font-weight: 750;
         position: absolute;
         left: 58%;
-        bottom: 30%;
+        bottom: 36%;
     }
 `
 
