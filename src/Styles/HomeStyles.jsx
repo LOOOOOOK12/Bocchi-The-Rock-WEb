@@ -5,6 +5,7 @@ const HomeStyles = styled.div`
     height: 100vh; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),url("src/assets/wallpaperflare.com_wallpaper (1).jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     align-items: center;
