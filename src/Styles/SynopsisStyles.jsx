@@ -11,7 +11,7 @@ const SynopsisStyles = styled.div`
     gap: 2.5rem;
 
     .Swiper{
-        height: 38rem;
+        height: 34rem;
         width: 25rem;
     }
 
