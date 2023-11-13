@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import SongStyles from '../Styles/SongsStyles';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
@@ -17,8 +16,8 @@ function Songs() {
         modules={[Autoplay, EffectFade]}
         effect="fade"
         autoplay = {{
-          disableOnInteraction:true,
-          delay: 3000
+          disableOnInteraction:false,
+          delay: 5000
         }}
         loop
         
