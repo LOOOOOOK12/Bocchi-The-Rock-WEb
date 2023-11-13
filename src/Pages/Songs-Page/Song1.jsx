@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 
 function Song1({ name, cover, alt, song, AlbumBgStyle, lyrics }) {
   const StyledContainer = AlbumBgStyle;
