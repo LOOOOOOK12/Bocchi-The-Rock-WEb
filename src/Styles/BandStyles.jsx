@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const BandStyles = styled.div`
         position: relative;
-    height: 50vh;
-    width: 100%;
+        height: 40vh;
+        width: 100%;
 
     .bg-Video{
         position: absolute;
@@ -21,11 +21,11 @@ const BandStyles = styled.div`
 
     h1{
         color: #eaeaea;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 750;
         position: absolute;
-        left: 58%;
-        bottom: 36%;
+        left: 50%;
+        bottom: 30%;
     }
 `
 
