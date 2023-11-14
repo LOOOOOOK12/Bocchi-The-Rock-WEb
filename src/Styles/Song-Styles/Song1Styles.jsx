@@ -9,6 +9,7 @@ const Song1Styles = styled.div`
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url("src/assets/Album Cover/Seishun_Complex_Single_Cover_29 (1).png");
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: cover;
 
     .Container{
         backdrop-filter:blur(6px);
@@ -43,6 +44,7 @@ const Song1Styles = styled.div`
     }
 
     @media (max-width: 425px) {
+
         .img-Container{
         height: 20rem;
         width: 17rem;
