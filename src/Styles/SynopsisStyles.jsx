@@ -25,7 +25,7 @@ const SynopsisStyles = styled.div`
         display: flex;
         text-align: left;
         width: 33rem;
-        margin-right: 4rem;
+        margin: 4rem;
         line-height: 1.9rem;
         font-size: 1.2rem;
     }
@@ -33,6 +33,7 @@ const SynopsisStyles = styled.div`
     @media (max-width: 700px) {
             display: flex;
             flex-direction: column;
+            gap: 0;
 
         .Swiper{
             height:30rem;
