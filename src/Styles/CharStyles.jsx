@@ -4,8 +4,8 @@ const CharStyles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 45vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url("src/assets/wallpaperflare.com_wallpaper (1).jpg");
+    height: 43vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.6)),url("src/assets/wallpaperflare.com_wallpaper (1).jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
