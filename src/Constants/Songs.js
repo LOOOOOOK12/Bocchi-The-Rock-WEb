@@ -85,7 +85,7 @@ export const songs = [
         albumCover: album7,
         alt: "Nani Ga Warui (Album Cover)",
         SongName: "Nani Ga Warui",
-        song: "src/assets/Audio/What is wrong with.mp3",
+        song: "src/assets/Audio/What is wrong withh.mp3",
         albumBackGround: Song8Styles,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Nani_ga_Warui"
     },
