@@ -2,7 +2,7 @@ import Logo from '../Images/Kessoku_Band_Logo.png'
 import NavStyles from '../Styles/NavStyles'
 import Burgir from './Burgir'
 
-function NavBar() {
+function NavBAr() {
 
   return (
     <NavStyles>
@@ -14,4 +14,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default NavBAr
