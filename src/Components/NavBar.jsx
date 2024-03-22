@@ -4,7 +4,7 @@ import RightNav from './RightNav'
 import { useState, useEffect } from 'react'
 import Burgir from './Burgir'
 
-function NavBAr() {
+function NavBar() {
 
   return (
     <NavStyles>
@@ -16,4 +16,4 @@ function NavBAr() {
   )
 }
 
-export default NavBAr
+export default NavBar
