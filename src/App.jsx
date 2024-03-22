@@ -1,5 +1,5 @@
 import './App.css'
-import NavBar from './Components/NavBAr'
+import Nav from './Components/Nav'
 import Home from "./Pages/Home"
 import Synopsis from "./Pages/Synopsis"
 import Band from './Pages/Band'
@@ -8,11 +8,10 @@ import Char from './Pages/Char'
 import Songs from "./Pages/Songs"
 import Footer from "./Components/Footer"
 
-
 function App() {
   return (
     <>
-      <NavBar/>
+      <Nav/>
       <Home/>
       <Synopsis/>
       <Band/>
