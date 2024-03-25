@@ -41,7 +41,7 @@ export const songs = [
         alt: "Wasurete Yaranai (Album Cover)",
         SongName: "Wasurete Yaranai",
         song: "src/assets/Audio/Never forget.mp3",
-        albumBackGround: Song3Styles,
+        albumBackGround: album3,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Wasurete_Yaranai"
     },
 
