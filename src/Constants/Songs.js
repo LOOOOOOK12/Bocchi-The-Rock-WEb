@@ -7,14 +7,7 @@ import album6 from '../assets/Album Cover/Kessoku_Band_Album_Cover_29.png'
 import album7 from '../assets/Album Cover/Nani_ga_Warui_Digital_Cover_29.png'
 import album8 from '../assets/Album Cover/Karakara_Digital_Cover_29.png'
 
-import Song1Styles from '../Styles/Song-Styles/Song1Styles'
-import Song2Styles from '../Styles/Song-Styles/Song2Styles'
-import Song3Styles from '../Styles/Song-Styles/Song3Styles'
-import Song4Styles from '../Styles/Song-Styles/Song4Styles'
-import Song6Styles from '../Styles/Song-Styles/Song6Styles'
-import Song7Styles from '../Styles/Song-Styles/Song7Styles'
-import Song8Styles from '../Styles/Song-Styles/Song8Styles'
-import Song9Styles from '../Styles/Song-Styles/Song9Styles'
+import song1 from '../assets/Audio/seisyun complex.mp3'
 
 export const songs = [
 
@@ -22,7 +15,7 @@ export const songs = [
         albumCover: album1,
         alt: "Seisyun Complex (Album Cover)",
         SongName: "Seisyun Complex",
-        song: "src/assets/Audio/seisyun complex.mp3",
+        song: song1,
         albumBackGround: album1,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seishun_Complex"
     },
