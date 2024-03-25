@@ -15,6 +15,7 @@ import song5 from '../assets/Audio/hitoribocchi_tokyo.mp3'
 import song6 from '../assets/Audio/Secret_base.mp3'
 import song7 from '../assets/Audio/What_is_wrong_with.mp3'
 import song8 from '../assets/Audio/Karakara.mp3'
+import song9 from '../assets/Audio/Distortion!!.mp3'
 
 
 export const songs = [
@@ -49,7 +50,7 @@ export const songs = [
     {
         albumCover: album4,
         alt: "Seiza ni Naretara (Album Cover)",
-        SongName: "Seiza ni Naretara",
+        SongName: "If i could be a constellation",
         song: song4,
         albumBackGround: album4,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seiza_ni_Naretara"
@@ -68,7 +69,7 @@ export const songs = [
         albumCover: album5,
         alt: "Distortion (Album Cover)",
         SongName: "Distortion!!",
-        song: song5,
+        song: song9,
         albumBackGround: album5,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
     },
