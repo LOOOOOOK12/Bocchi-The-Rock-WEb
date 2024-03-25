@@ -23,7 +23,7 @@ export const songs = [
         alt: "Seisyun Complex (Album Cover)",
         SongName: "Seisyun Complex",
         song: "src/assets/Audio/seisyun complex.mp3",
-        albumBackGround: Song1Styles,
+        albumBackGround: album1,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seishun_Complex"
     },
 
@@ -32,7 +32,7 @@ export const songs = [
         alt: "Ano Band (Album Cover)",
         SongName: "Ano Band",
         song: "src/assets/Audio/That band.mp3",
-        albumBackGround: Song2Styles,
+        albumBackGround: album2,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Ano_Band"
     },
 
@@ -50,7 +50,7 @@ export const songs = [
         alt: "Seiza ni Naretara (Album Cover)",
         SongName: "Seiza ni Naretara",
         song: "src/assets/Audio/If I could be a constellation.mp3",
-        albumBackGround: Song4Styles,
+        albumBackGround: album4,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seiza_ni_Naretara"
     },
 
@@ -59,7 +59,7 @@ export const songs = [
         alt: "Hitoribocchi Tokyo (Album Cover)",
         SongName: "Hitoribocchi Tokyo",
         song: "src/assets/Audio/hitoribocchi tokyo.mp3",
-        albumBackGround: Song1Styles,
+        albumBackGround: album1,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Hitoribocchi_Tokyo"
     },
 
@@ -68,7 +68,7 @@ export const songs = [
         alt: "Distortion (Album Cover)",
         SongName: "Distortion!!",
         song: "src/assets/Audio/Distortion!!.mp3",
-        albumBackGround: Song6Styles,
+        albumBackGround: album5,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
     },
 
@@ -77,7 +77,7 @@ export const songs = [
         alt: "Himitsu Kichi (Album Cover)",
         SongName: "Himitsu Kichi",
         song: "src/assets/Audio/Secret base.mp3",
-        albumBackGround: Song7Styles,
+        albumBackGround: album6,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Himitsu_Kichi"
     },
 
@@ -86,7 +86,7 @@ export const songs = [
         alt: "Nani Ga Warui (Album Cover)",
         SongName: "Nani Ga Warui",
         song: "src/assets/Audio/What is wrong withh.mp3",
-        albumBackGround: Song8Styles,
+        albumBackGround: album7,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Nani_ga_Warui"
     },
 
@@ -95,7 +95,7 @@ export const songs = [
         alt: "Karakara (Album Cover)",
         SongName: "Karakara",
         song: "src/assets/Audio/Karakara.mp3",
-        albumBackGround: Song9Styles,
+        albumBackGround: album8,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Karakara"
     }
 ]
