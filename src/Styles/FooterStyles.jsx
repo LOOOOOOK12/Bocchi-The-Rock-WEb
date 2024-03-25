@@ -26,6 +26,10 @@ const FooterStyles = styled.div`
         flex-direction: column;
     }
 
+    .Links{
+        display: flex;
+    }
+
     .Links img{
         height: 2.7rem;
     }
