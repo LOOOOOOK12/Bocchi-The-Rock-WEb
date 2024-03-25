@@ -7,7 +7,7 @@ import album6 from '../assets/Album Cover/Kessoku_Band_Album_Cover_29.png'
 import album7 from '../assets/Album Cover/Nani_ga_Warui_Digital_Cover_29.png'
 import album8 from '../assets/Album Cover/Karakara_Digital_Cover_29.png'
 
-import song1 from '../assets/Audio/seisyun complex.mp3'
+import song1 from '../assets/Audio/seisyun_complex.mp3'
 
 export const songs = [
 
