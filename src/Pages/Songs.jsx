@@ -11,7 +11,7 @@ import { songs } from '../Constants/Songs';
 function Songs() {
 
   return (
-    <SongStyles id="Songs">
+    <div className='h-[120vh] flex items-center justify-center' id="Songs">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -20,8 +20,7 @@ function Songs() {
           delay: 5000
         }}
         loop
-        
-        id="Container"
+        className='h-full w-full'
       >
         {songs.map((song, idx) => (
           <SwiperSlide key={idx}>
@@ -29,13 +28,13 @@ function Songs() {
               name={song.SongName}
               cover={song.albumCover}
               song={song.song}
-              AlbumBgStyle={song.albumBackGround}
+              albumBackGround={song.albumBackGround}
               lyrics={song.lyrics}
             />
           </SwiperSlide>
         ))}
       </Swiper>
-    </SongStyles>
+    </div>
   );
 }
 
