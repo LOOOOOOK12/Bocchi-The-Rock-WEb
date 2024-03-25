@@ -5,7 +5,7 @@
             height: 28px;
             top: 0;
             z-index: 15;
-            width: 90%;
+            width: 100%;
             position: fixed;
             display: flex;
             justify-content: space-between;
