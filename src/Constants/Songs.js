@@ -8,6 +8,14 @@ import album7 from '../assets/Album Cover/Nani_ga_Warui_Digital_Cover_29.png'
 import album8 from '../assets/Album Cover/Karakara_Digital_Cover_29.png'
 
 import song1 from '../assets/Audio/seisyun_complex.mp3'
+import song2 from '../assets/Audio/That_band.mp3'
+import song3 from '../assets/Audio/Never_forget.mp3'
+import song4 from '../assets/Audio/If_I_could_be_a_constellation.mp3'
+import song5 from '../assets/Audio/hitoribocchi_tokyo.mp3'
+import song6 from '../assets/Audio/Secret_base.mp3'
+import song7 from '../assets/Audio/What_is_wrong_with.mp3'
+import song8 from '../assets/Audio/Karakara.mp3'
+
 
 export const songs = [
 
@@ -23,8 +31,8 @@ export const songs = [
     {
         albumCover: album2,
         alt: "Ano Band (Album Cover)",
-        SongName: "Ano Band",
-        song: "src/assets/Audio/That band.mp3",
+        SongName: "That Band",
+        song: song2,
         albumBackGround: album2,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Ano_Band"
     },
@@ -32,8 +40,8 @@ export const songs = [
     {
         albumCover: album3,
         alt: "Wasurete Yaranai (Album Cover)",
-        SongName: "Wasurete Yaranai",
-        song: "src/assets/Audio/Never forget.mp3",
+        SongName: "Never Forget",
+        song: song3,
         albumBackGround: album3,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Wasurete_Yaranai"
     },
@@ -42,7 +50,7 @@ export const songs = [
         albumCover: album4,
         alt: "Seiza ni Naretara (Album Cover)",
         SongName: "Seiza ni Naretara",
-        song: "src/assets/Audio/If I could be a constellation.mp3",
+        song: song4,
         albumBackGround: album4,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Seiza_ni_Naretara"
     },
@@ -51,7 +59,7 @@ export const songs = [
         albumCover: album1,
         alt: "Hitoribocchi Tokyo (Album Cover)",
         SongName: "Hitoribocchi Tokyo",
-        song: "src/assets/Audio/hitoribocchi tokyo.mp3",
+        song: song5,
         albumBackGround: album1,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Hitoribocchi_Tokyo"
     },
@@ -60,7 +68,7 @@ export const songs = [
         albumCover: album5,
         alt: "Distortion (Album Cover)",
         SongName: "Distortion!!",
-        song: "src/assets/Audio/Distortion!!.mp3",
+        song: song5,
         albumBackGround: album5,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Distortion!!"
     },
@@ -68,8 +76,8 @@ export const songs = [
     {
         albumCover: album6,
         alt: "Himitsu Kichi (Album Cover)",
-        SongName: "Himitsu Kichi",
-        song: "src/assets/Audio/Secret base.mp3",
+        SongName: "Secret Base",
+        song: song6,
         albumBackGround: album6,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Himitsu_Kichi"
     },
@@ -77,8 +85,8 @@ export const songs = [
     {
         albumCover: album7,
         alt: "Nani Ga Warui (Album Cover)",
-        SongName: "Nani Ga Warui",
-        song: "src/assets/Audio/What is wrong withh.mp3",
+        SongName: "What is wrong with",
+        song: song7,
         albumBackGround: album7,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Nani_ga_Warui"
     },
@@ -87,7 +95,7 @@ export const songs = [
         albumCover: album8,
         alt: "Karakara (Album Cover)",
         SongName: "Karakara",
-        song: "src/assets/Audio/Karakara.mp3",
+        song: song8,
         albumBackGround: album8,
         lyrics:"https://bocchi-the-rock.fandom.com/wiki/Karakara"
     }
